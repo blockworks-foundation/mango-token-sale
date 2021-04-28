@@ -9,6 +9,7 @@ import {
 } from '@heroicons/react/outline'
 import ConnectWalletButton from './ConnectWalletButton'
 import WalletIcon from './WalletIcon'
+import ThemeSwitch from './ThemeSwitch'
 import useWalletStore from '../stores/useWalletStore'
 
 const Code = styled.code`
@@ -61,6 +62,9 @@ const TopBar = () => {
           </div>
           <div className="flex">
             <div className="flex items-center">
+              <div className="flex items-center justify-center rounded-full bg-th-bkg-3 w-8 h-8 mr-2">
+                <ThemeSwitch />
+              </div>
               <div className="hidden sm:ml-4 sm:block">
                 {connected && wallet?.publicKey ? (
                   <Menu>

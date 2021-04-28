@@ -1,6 +1,3 @@
-// const colors = require('tailwindcss/colors')
-// const defaultTheme = require('tailwindcss/defaultTheme')
-
 module.exports = {
   mode: 'jit',
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
@@ -19,36 +16,19 @@ module.exports = {
         help: 'help',
       },
       colors: {
-        'mango-orange': {
-          DEFAULT: '#DFAB01',
-          dark: '#CB9C01',
+        'light-theme': {
+          orange: '#FF9C24',
+          red: { DEFAULT: '#CC2929', dark: '#AA2222' },
+          green: { DEFAULT: '#5EBF4D', dark: '#4BA53B' },
+          'bkg-1': '#f7f7f7',
+          'bkg-2': '#FFFFFF',
+          'bkg-3': '#EDEDED',
+          'fgd-1': '#061f23',
+          'fgd-2': '#0C3F45',
+          'fgd-3': '#446065',
+          'fgd-4': '#B0B0B0',
         },
-        'mango-yellow': '#F2C94C',
-        'mango-red': '#E54033',
-        'mango-green': '#AFD803',
-        'mango-dark': {
-          lighter: '#332F46',
-          light: '#262337',
-          DEFAULT: '#141026',
-        },
-        'mango-med': {
-          light: '#C2BDD9',
-          DEFAULT: '#9490A6',
-          dark: '#706C81',
-        },
-        'mango-light': {
-          light: '#FCFCFF',
-          DEFAULT: '#F0EDFF',
-          dark: '#B9B5CE',
-        },
-        'mango-grey': {
-          lighter: '#f7f7f7',
-          light: '#e6e6e6',
-          dark: '#092e34',
-          darker: '#072428',
-          darkest: '#061f23',
-        },
-        'mango-theme': {
+        'dark-theme': {
           yellow: '#F2C94C',
           red: { DEFAULT: '#E54033', dark: '#C7251A' },
           green: { DEFAULT: '#AFD803', dark: '#91B503' },

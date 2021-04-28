@@ -35,7 +35,7 @@ function App({ Component, pageProps }) {
 
         <link rel="manifest" href="/manifest.json"></link>
       </Head>
-      <ThemeProvider defaultTheme="Mango">
+      <ThemeProvider defaultTheme="Light">
         <Component {...pageProps} />
       </ThemeProvider>
     </>

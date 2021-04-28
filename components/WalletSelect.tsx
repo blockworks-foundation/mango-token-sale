@@ -9,7 +9,7 @@ import useWalletStore from '../stores/useWalletStore'
 import { WALLET_PROVIDERS, DEFAULT_PROVIDER } from '../hooks/useWallet'
 import useLocalStorageState from '../hooks/useLocalStorageState'
 
-export default function WalletSelect({ isPrimary = false }) {
+export default function WalletSelect() {
   const setWalletStore = useWalletStore((s) => s.set)
   const [savedProviderUrl] = useLocalStorageState(
     'walletProvider',
@@ -27,11 +27,7 @@ export default function WalletSelect({ isPrimary = false }) {
       {({ open }) => (
         <>
           <Menu.Button
-            className={`flex justify-center items-center h-full rounded-r rounded-l-none focus:outline-none text-th-primary hover:text-th-fgd-1 ${
-              isPrimary
-                ? 'px-3 hover:bg-th-primary'
-                : 'px-2 hover:bg-th-bkg-3 border-l border-th-fgd-4'
-            } cursor-pointer`}
+            className={`flex justify-center items-center h-full rounded-r rounded-l-none focus:outline-none text-th-primary hover:text-th-fgd-1 px-3 hover:bg-th-primary cursor-pointer`}
           >
             {open ? (
               <ChevronUpIcon className="h-5 w-5" />
@@ -46,7 +42,7 @@ export default function WalletSelect({ isPrimary = false }) {
                   className="flex flex-row items-center justify-between w-full p-2 hover:bg-th-bkg-2 hover:cursor-pointer font-normal focus:outline-none"
                   onClick={() => handleSelectProvider(url)}
                 >
-                  <div className="flex">
+                  <div className="flex items-center text-sm">
                     <img src={icon} className="w-5 h-5 mr-2" />
                     {name}
                   </div>

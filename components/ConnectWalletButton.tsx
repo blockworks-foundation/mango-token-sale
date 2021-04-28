@@ -26,7 +26,7 @@ const ConnectWalletButton = () => {
         <div className="flex flex-row items-center px-2 justify-center h-full rounded-l default-transition hover:bg-th-primary hover:text-th-fgd-1">
           <WalletIcon className="w-5 h-5 mr-3 fill-current" />
           <div>
-            <span className="whitespace-nowrap">Connect Wallet</span>
+            <span className="whitespace-nowrap text-sm">Connect Wallet</span>
             <StyledWalletTypeLabel className="font-normal text-th-fgd-1 text-left leading-3">
               {WALLET_PROVIDERS.filter((p) => p.url === savedProviderUrl).map(
                 ({ name }) => name
@@ -36,7 +36,7 @@ const ConnectWalletButton = () => {
         </div>
       </button>
       <div className="relative h-full">
-        <WalletSelect isPrimary />
+        <WalletSelect />
       </div>
     </div>
   )
