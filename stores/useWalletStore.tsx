@@ -6,7 +6,7 @@ import { EndpointInfo, WalletAdapter } from '../@types/types'
 import {
   getOwnedTokenAccounts,
   getMint,
-  ProgramAccount,
+  subscribeToTokenAccount,
   TokenAccount,
   MintAccount,
 } from '../utils/tokens'
@@ -39,8 +39,9 @@ interface WalletStore extends State {
   }
   current: WalletAdapter | undefined
   providerUrl: string
-  tokenAccounts: ProgramAccount<TokenAccount>[]
+  tokenAccounts: { [pubkey: string]: TokenAccount }
   mints: { [pubkey: string]: MintAccount }
+  subscriptions: { [pubkey: string]: () => void }
   set: (x: any) => void
   actions: any
 }
@@ -55,28 +56,43 @@ const useWalletStore = create<WalletStore>((set, get) => ({
   },
   current: null,
   providerUrl: null,
-  tokenAccounts: [],
+  tokenAccounts: {},
   mints: {},
+  subscriptions: {},
   actions: {
     async fetchWalletTokenAccounts() {
       const connection = get().connection.current
       const connected = get().connected
+      const subscriptions = get().subscriptions
       const wallet = get().current
       const walletOwner = wallet?.publicKey
       const set = get().set
 
       if (connected && walletOwner) {
-        const ownedTokenAccounts = await getOwnedTokenAccounts(
+        const ownedAccountsResult = await getOwnedTokenAccounts(
           connection,
           walletOwner
         )
 
+        const newTokenAccounts: { [pubkey: string]: TokenAccount } = {}
+        ownedAccountsResult.forEach((r) => {
+          newTokenAccounts[r.publicKey.toBase58()] = r.account
+        })
+
+        // cancel all subscriptions
+        Object.values(subscriptions).forEach((s) => s())
+
         set((state) => {
-          state.tokenAccounts = ownedTokenAccounts
+          state.subscriptions = {}
+          state.tokenAccounts = newTokenAccounts
+        })
+
+        ownedAccountsResult.forEach((r) => {
+          this.subscribeToTokenAccount(r.publicKey)
         })
       } else {
         set((state) => {
-          state.tokenAccounts = []
+          state.tokenAccounts = {}
         })
       }
     },
@@ -87,14 +103,14 @@ const useWalletStore = create<WalletStore>((set, get) => ({
       const set = get().set
 
       if (connected) {
-        const fetchMints = tokenAccounts.map((a) =>
-          getMint(connection, a.account.mint)
+        const fetchMints = Object.values(tokenAccounts).map((a) =>
+          getMint(connection, a.mint)
         )
         const mintResults = await Promise.all(fetchMints)
 
         const newMints: { [pubkey: string]: MintAccount } = {}
         mintResults.forEach(
-          (m) => (newMints[m.publicKey.toBase58()] = m.account)
+          (r) => (newMints[r.publicKey.toBase58()] = r.account)
         )
 
         set((state) => {
@@ -103,6 +119,23 @@ const useWalletStore = create<WalletStore>((set, get) => ({
       } else {
         set((state) => {
           state.mints = {}
+        })
+      }
+    },
+    async subscribeToTokenAccount(pubkey) {
+      const connection = get().connection.websocket
+      const connected = get().connected
+      const set = get().set
+
+      if (connected) {
+        const sub = subscribeToTokenAccount(connection, pubkey, (r) => {
+          set((s) => {
+            s.tokenAccounts[pubkey.toBase58()] = r.account
+          })
+        })
+
+        set((s) => {
+          s.subscriptions[pubkey.toBase58()] = sub
         })
       }
     },

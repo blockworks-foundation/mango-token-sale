@@ -12,13 +12,13 @@ const Balances = () => {
     return quotient.toNumber() + remainder.toNumber() / divisor.toNumber()
   }
 
-  function calculateBalance(a) {
-    const mint = mints[a.account.mint.toBase58()]
-    return mint ? fixedPointToNumber(a.account.amount, mint.decimals) : 0
+  function calculateBalance(acc) {
+    const mint = mints[acc.mint.toBase58()]
+    return mint ? fixedPointToNumber(acc.amount, mint.decimals) : 0
   }
 
-  const displayedBalances = tokenAccounts
-    .map((a) => ({ id: a.publicKey.toBase58(), balance: calculateBalance(a) }))
+  const displayedBalances = Object.entries(tokenAccounts)
+    .map(([id, acc]) => ({ id, balance: calculateBalance(acc) }))
     .sort((a, b) => (a.id > b.id ? 1 : -1))
 
   return (

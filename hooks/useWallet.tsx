@@ -127,9 +127,8 @@ export default function useWallet() {
   }, [wallet, setWalletStore])
 
   useInterval(async () => {
-    await actions.fetchWalletTokenAccounts()
     await actions.fetchWalletMints()
-  }, 20 * SECONDS)
+  }, 120 * SECONDS)
 
   return { connected, wallet }
 }

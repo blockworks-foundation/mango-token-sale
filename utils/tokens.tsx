@@ -9,7 +9,7 @@ import {
 
 export type TokenAccount = AccountInfo
 export type MintAccount = MintInfo
-export type ProgramAccount<T> = {
+export type AccountResponse<T> = {
   publicKey: PublicKey
   account: T
 }
@@ -17,7 +17,7 @@ export type ProgramAccount<T> = {
 export async function getOwnedTokenAccounts(
   connection: Connection,
   publicKey: PublicKey
-): Promise<ProgramAccount<TokenAccount>[]> {
+): Promise<AccountResponse<TokenAccount>[]> {
   const results = await connection.getTokenAccountsByOwner(publicKey, {
     programId: TOKEN_PROGRAM_ID,
   })
@@ -32,13 +32,28 @@ export async function getOwnedTokenAccounts(
 export async function getMint(
   connection: Connection,
   publicKey: PublicKey
-): Promise<ProgramAccount<MintAccount>> {
+): Promise<AccountResponse<MintAccount>> {
   const result = await connection.getAccountInfo(publicKey)
   const data = Buffer.from(result.data)
   const account = parseMintAccountData(data)
   return {
     publicKey,
     account,
+  }
+}
+
+export function subscribeToTokenAccount(
+  connection: Connection,
+  publicKey: PublicKey,
+  cb: (r: AccountResponse<TokenAccount>) => void
+): () => void {
+  const id = connection.onAccountChange(publicKey, (info) => {
+    const data = Buffer.from(info.data)
+    const account = parseTokenAccountData(publicKey, data)
+    cb({ publicKey, account })
+  })
+  return () => {
+    connection.removeAccountChangeListener(id)
   }
 }
 
