@@ -22,18 +22,17 @@ function App({ Component, pageProps }) {
           rel="stylesheet"
         />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/manifest.json"></link>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="keywords" content={keywords} />
         <meta name="description" content={description} />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Mango Markets" />
+        <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content="/twitter-image.png" />
-
-        <link rel="manifest" href="/manifest.json"></link>
       </Head>
       <ThemeProvider defaultTheme="Light">
         <Component {...pageProps} />
