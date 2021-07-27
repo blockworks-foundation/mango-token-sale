@@ -172,8 +172,8 @@ const ContributionModal = () => {
             !editContribution &&
             !(connected && toLateToDeposit) && (
               <>
-                <h2>The journey starts here.</h2>
-                <p>When your&apos;re ready, deposit your USDC</p>
+                <h2>The journey starts here</h2>
+                <p>When you&apos;re ready, deposit your USDC</p>
               </>
             )}
 
@@ -184,7 +184,7 @@ const ContributionModal = () => {
             toLateToDeposit && (
               <>
                 <h2>We&apos;re sorry, you missed it.</h2>
-                <p>Deposits are already closed</p>
+                <p>The sale period has ended</p>
               </>
             )}
 
@@ -198,14 +198,14 @@ const ContributionModal = () => {
           {submitted && !submitting && (
             <>
               <h2>Your contribution amount</h2>
-              <p>Thanks for contributing...</p>
+              <p>Unlock to edit your contribution</p>
             </>
           )}
 
           {editContribution && !submitting && (
             <>
               <h2>Funds unlocked</h2>
-              <p>Increase or reduce your contribution...</p>
+              <p>Increase or reduce your contribution</p>
             </>
           )}
         </div>
@@ -317,7 +317,7 @@ const ContributionModal = () => {
                 >
                   <div className={`flex items-center justify-center`}>
                     {dontAddMore
-                      ? 'Sorry you can’t add anymore 🥲'
+                      ? 'Sorry, you can’t add anymore 🥲'
                       : 'Set Contribution'}
                   </div>
                 </Button>

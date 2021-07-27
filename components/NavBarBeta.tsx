@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import MangoPill from '../components/MangoPill'
 //import MangoSale from '../components/MangoSale'
-import Button from './Button'
 
 const NavBarBeta = () => {
   const [mobileMenuVisible, setMobileMenuVisible] = useState(false)
@@ -400,13 +399,6 @@ const NavBarBeta = () => {
                 </div>
               </a>
             </nav>
-            <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-              <div>
-                <a rel="noreferrer" target="_blank" href="#">
-                  <Button>Contribute now</Button>
-                </a>
-              </div>
-            </div>
           </div>
         </div>
 

@@ -31,3 +31,8 @@ button {
 .default-transition {
   @apply transition-all duration-300;
 }
+
+.large-text {
+  font-size: 2rem;
+  line-height: 2;
+}

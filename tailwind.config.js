@@ -19,7 +19,6 @@ module.exports = {
         'feature-four': "url('../public/img/feature4.png')",
         'bg-texture': "url('../public/img/bgtexture.png')",
         'bg-wave': "url('../public/img/bg-wave.png')",
-
       }),
       height: {
         650: '650px',

@@ -1,17 +1,17 @@
 import ModalSection from '../components/ModalSection'
-import PoolInfoCards from '../components/PoolInfoCards'
 import HeroSection from '../components/HeroSection'
 import ContentSection from '../components/ContentSection'
 import FooterSection from '../components/FooterSection'
+import ScrollToTop from '../components/ScrollToTop'
 
 const ContributionPage = () => {
   return (
     <>
       <HeroSection />
-      <PoolInfoCards />
-      <ContentSection />
       <ModalSection />
+      <ContentSection />
       <FooterSection />
+      <ScrollToTop />
     </>
   )
 }
