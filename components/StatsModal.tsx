@@ -19,17 +19,17 @@ const StatsModal = () => {
     <>
       <div className="flex-1 m-3 sm:-ml-8 bg-secondary-4-dark border border-bkg-3  py-6 rounded-xl shadow-md divide-y-2 divide-white divide-opacity-5 z-0">
         <div className="pb-4 text-center">
-          <p className="text-fgd-3">Deposits end in:</p>
+          <p className="text-fgd-3">Sale period ends in:</p>
           <PoolCountdown date={endDeposits} className="justify-center pt-1" />
         </div>
 
         <div className="py-4 text-center">
-          <p className="text-fgd-3">Grace Period ends in:</p>
+          <p className="text-fgd-3">Grace period ends in:</p>
           <PoolCountdown date={endIdo} className="justify-center pt-1" />
         </div>
 
         <div className="py-4 text-center">
-          <p className="text-fgd-3">Total USDC Deposited:</p>
+          <p className="text-fgd-3">Total USDC deposited:</p>
           <div className="flex items-center justify-center pt-0.5">
             <img
               alt=""
@@ -45,7 +45,7 @@ const StatsModal = () => {
         </div>
 
         <div className="py-4 text-center">
-          <p className="text-fgd-3">Estimated Token Price:</p>
+          <p className="text-fgd-3">Estimated token price:</p>
           <div className="flex items-center justify-center pt-0.5">
             <img
               alt=""
