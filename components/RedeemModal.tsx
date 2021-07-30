@@ -66,12 +66,12 @@ const RedeemModal = () => {
 
   return (
     <>
-      <div className="flex flex-col bg-bkg-2 border border-bkg-3 p-7 rounded-lg shadow-lg">
+      <div className="flex flex-col bg-bkg-2 border border-bkg-3 p-7 rounded-xl shadow-lg">
         <div className="pb-4 text-center">
           {!submitting ? (
             <>
-              <h2>Redeem your MNGO</h2>
-              {/* <p>Welcome to the DAO, let&apos;s build together.</p> */}
+              <h2>Redeem your MNGO.</h2>
+              <p>Welcome to the DAO, let&apos;s build together.</p>
             </>
           ) : null}
 
