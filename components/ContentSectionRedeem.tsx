@@ -26,8 +26,7 @@ const ContentSectionRedeem = () => {
                         With great power comes great responsibility
                       </h2>
                       <p className="text-white text-opacity-70 text-base">
-                        Little blurb about solana governance from day one and how important it is to be a mango token holder
-                        . {' '}
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.                        . {' '}
                       </p>
                     </div>
                   </div>
@@ -41,14 +40,7 @@ const ContentSectionRedeem = () => {
                         Getting MNGO on V3
                       </h2>
                       <p className="text-white text-opacity-70 text-base">
-                        During the
-                        <span className="text-mango-green">
-                          {' '}
-                          sale period
-                        </span>{' '}
-                        you can deposit USDC into the vault. You can also change
-                        this amount by withdrawing or depositing additional USDC
-                        if you choose to.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                       </p>
                     </div>
                   </div>
@@ -65,11 +57,7 @@ const ContentSectionRedeem = () => {
                           Everyone can become a mango market maker
                       </h2>
                       <p className="text-white text-opacity-70 text-base">
-                        Once the{' '}
-                        <span className="text-blue-400">grace period</span> ends
-                        the MNGO tokens will be unlocked for redemption. The
-                        number of tokens you&apos;ll receive will be
-                        proportional to your USDC contribution.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                       </p>
                     </div>
                   </div>
@@ -83,18 +71,7 @@ const ContentSectionRedeem = () => {
                         Road to decentralization
                       </h2>
                       <p className="text-white text-opacity-70 text-base mb-4">
-                        We wanted to build a mechanism that is fair and
-                        transparent for all participants. No private sale, no
-                        backroom deals with VCs, all players are on a level
-                        playing field. The mechanism is simple but robust. This
-                        makes it easier to build, use, and more importantly,
-                        harder to exploit.
-                      </p>
-                      <p className="text-white text-opacity-70 text-base">
-                        All you need to do, is decide how much you contribute
-                        and how much you value MNGO. If the sale price is too
-                        high for you, you can still withdraw during the{' '}
-                        <span className="text-blue-400">grace period</span>.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                       </p>
                     </div>
                   </div>
@@ -109,8 +86,7 @@ const ContentSectionRedeem = () => {
                 <span className="block"><GradientText>Join the community</GradientText></span>
               </h2>
               <p className="mt-4 text-xl leading-6 text-white text-opacity-50">
-                Trade with the best in class user interface
-                for&nbsp;traders,&nbsp;built&nbsp;by&nbsp;traders.{' '}
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.{' '}
               </p>
               <div className="py-8">
                 <a
