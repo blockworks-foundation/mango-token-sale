@@ -102,7 +102,7 @@ const ContentSectionRedeem = () => {
           <div className="-mt-6 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
             <img
               className="transform translate-x-2 translate-y-2 rounded-md object-cover object-left-top sm:translate-x-12 lg:translate-y-16"
-              src="../img/cta_img.png"
+              src="../img/redeem5.png"
               alt="mango markets"
             />
           </div>
