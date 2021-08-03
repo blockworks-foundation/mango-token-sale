@@ -1,4 +1,5 @@
 import Button from "./Button"
+import GradientText from "./GradientText"
 
 const ContentSectionRedeem = () => {
   return (
@@ -17,34 +18,27 @@ const ContentSectionRedeem = () => {
           </div>
           <section className="">
             <div className="grid grid-cols-3 gap-6 mb-6">
-              <div className="col-span-3 lg:col-span-2">
-                <div className="bg-bkg-3 border border-bkg-4 bg-feature-two bg-contain lg:bg-cover bg-bottom bg-no-repeat h-750 md:h-650 lg:h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
+              <div className="col-span-3 lg:col-span-1">
+                <div className="bg-bkg-3 border border-bkg-4 bg-redeem-one bg-contain lg:bg-cover bg-bottom bg-no-repeat h-750 md:h-650 lg:h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
                   <div className="py-4 px-8 mt-3">
                     <div className="flex flex-col mb-8">
                       <h2 className="text-white font-semibold text-xl tracking-wide mb-2">
-                        Providing liquidity on Raydium
+                        With great power comes great responsibility
                       </h2>
                       <p className="text-white text-opacity-70 text-base">
-                        The 48 hours consists of two 24 hour periods, the{' '}
-                        <span className="text-mango-green text-base">
-                          sale period
-                        </span>{' '}
-                        and the{' '}
-                        <span className="text-blue-400 text-base">
-                          grace period
-                        </span>
-                        . Only afterwards you will be able to redeem MNGO.
+                        Little blurb about solana governance from day one and how important it is to be a mango token holder
+                        . {' '}
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="col-span-3 lg:col-span-1">
-                <div className="bg-bkg-3 border border-bkg-4 bg-feature-one bg-cover bg-bottom bg-no-repeat h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
+              <div className="col-span-3 lg:col-span-2">
+                <div className="bg-bkg-3 border border-bkg-4 bg-redeem-three bg-cover bg-bottom bg-no-repeat h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
                   <div className="py-4 px-8 mt-3">
                     <div className="flex flex-col mb-8">
                       <h2 className="text-white font-semibold text-xl tracking-wide mb-2">
-                        Governance on Solana
+                        Getting MNGO on V3
                       </h2>
                       <p className="text-white text-opacity-70 text-base">
                         During the
@@ -63,12 +57,12 @@ const ContentSectionRedeem = () => {
             </div>
 
             <div className="grid grid-cols-3 gap-6">
-              <div className="col-span-3 lg:col-span-1">
-                <div className="bg-bkg-3 border border-bkg-4 bg-feature-four bg-cover bg-bottom bg-no-repeat h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
+              <div className="col-span-3 lg:col-span-2">
+                <div className="bg-bkg-3 border border-bkg-4 bg-redeem-two bg-cover bg-bottom bg-no-repeat h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
                   <div className="py-4 px-8 mt-3">
                     <div className="flex flex-col mb-8">
                       <h2 className="text-white font-semibold text-xl tracking-wide mb-2">
-                          Liqduitity incentives using MNGO
+                          Everyone can become a mango market maker
                       </h2>
                       <p className="text-white text-opacity-70 text-base">
                         Once the{' '}
@@ -81,12 +75,12 @@ const ContentSectionRedeem = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-span-3 lg:col-span-2">
+              <div className="col-span-3 lg:col-span-1">
                 <div className="bg-bkg-3 border border-bkg-4 bg-feature-three bg-contain lg:bg-cover bg-bottom bg-no-repeat h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
                   <div className="py-4 px-8 mt-3">
                     <div className="flex flex-col mb-8">
                       <h2 className="text-white font-semibold text-xl tracking-wide mb-2">
-                        Becoming a contributor
+                        Road to decentralization
                       </h2>
                       <p className="text-white text-opacity-70 text-base mb-4">
                         We wanted to build a mechanism that is fair and
@@ -112,7 +106,7 @@ const ContentSectionRedeem = () => {
           <div className="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
             <div className="lg:self-center">
               <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
-                <span className="block">What are you waiting for?</span>
+                <span className="block"><GradientText>Join the community</GradientText></span>
               </h2>
               <p className="mt-4 text-xl leading-6 text-white text-opacity-50">
                 Trade with the best in class user interface
