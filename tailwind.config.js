@@ -25,6 +25,7 @@ module.exports = {
         'redeem-one': "url('../public/img/redeem1.png')",
         'redeem-two': "url('../public/img/redeem2.png')",
         'redeem-three': "url('../public/img/redeem3.png')",
+        'redeem-four': "url('../public/img/redeem4.png')",
       }),
       height: {
         550: '550px',

@@ -19,14 +19,14 @@ const ContentSectionRedeem = () => {
           <section className="">
             <div className="grid grid-cols-3 gap-6 mb-6">
               <div className="col-span-3 lg:col-span-1">
-                <div className="bg-bkg-3 border border-bkg-4 bg-redeem-one bg-contain lg:bg-cover bg-bottom bg-no-repeat h-750 md:h-650 lg:h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
+                <div className="bg-bkg-3 border border-bkg-4 bg-redeem-one bg-contain bg-bottom bg-no-repeat h-750 md:h-650 lg:h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
                   <div className="py-4 px-8 mt-3">
                     <div className="flex flex-col mb-8">
                       <h2 className="text-white font-semibold text-xl tracking-wide mb-2">
                         With great power comes great responsibility
                       </h2>
                       <p className="text-white text-opacity-70 text-base">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.                        . {' '}
+                        SteWe are the first DAO to unitlize solana&apos;s governance tools. {' '}
                       </p>
                     </div>
                   </div>
@@ -64,7 +64,7 @@ const ContentSectionRedeem = () => {
                 </div>
               </div>
               <div className="col-span-3 lg:col-span-1">
-                <div className="bg-bkg-3 border border-bkg-4 bg-feature-three bg-contain lg:bg-cover bg-bottom bg-no-repeat h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
+                <div className="bg-bkg-3 border border-bkg-4 bg-redeem-four bg-contain lg:bg-cover bg-bottom bg-no-repeat h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
                   <div className="py-4 px-8 mt-3">
                     <div className="flex flex-col mb-8">
                       <h2 className="text-white font-semibold text-xl tracking-wide mb-2">
