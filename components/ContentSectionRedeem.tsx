@@ -1,4 +1,5 @@
 import Button from "./Button"
+import LinkLeft from "./LinkLeft"
 //import GradientText from "./GradientText"
 
 const ContentSectionRedeem = () => {
@@ -17,8 +18,8 @@ const ContentSectionRedeem = () => {
             </p>
           </div>
           <section className="">
-            <div className="grid grid-cols-3 gap-6 mb-6">
-              <div className="col-span-3 lg:col-span-1">
+            <div className="grid grid-cols-4 gap-6 mb-6">
+              <div className="col-span-2">
                 <div className="bg-bkg-3 border border-bkg-4 bg-redeem-one bg-contain bg-bottom bg-no-repeat h-750 md:h-650 lg:h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
                   <div className="py-4 px-8 mt-3">
                     <div className="flex flex-col mb-8">
@@ -26,13 +27,13 @@ const ContentSectionRedeem = () => {
                         With great power comes great responsibility
                       </h2>
                       <p className="text-white text-opacity-70 text-base">
-                        SteWe are the first DAO to unitlize solana&apos;s governance tools. {' '}
+                        Mango is the first DAO on solana to use on-chain governance, as mango holders our highest responsibility is to command the DAO. We need to figure out how this will work, we need to figure out the rules ourselves. We&apos;re building the constitution. {' '}
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="col-span-3 lg:col-span-2">
+              <div className="col-span-2">
                 <div className="bg-bkg-3 border border-bkg-4 bg-redeem-three bg-cover bg-bottom bg-no-repeat h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
                   <div className="py-4 px-8 mt-3">
                     <div className="flex flex-col mb-8">
@@ -40,7 +41,7 @@ const ContentSectionRedeem = () => {
                         Getting MNGO on V3
                       </h2>
                       <p className="text-white text-opacity-70 text-base">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        MNGO should be traded on mango v3 at launch, that means mango needs decent liquidity on-par with other tokens. There are no backroom deals, no one hired a market maker to provide liquidity so we need to come together and provide liquidity in raydium pool.
                       </p>
                     </div>
                   </div>
@@ -48,8 +49,8 @@ const ContentSectionRedeem = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-3 gap-6">
-              <div className="col-span-3 lg:col-span-2">
+            <div className="grid grid-cols-4 gap-6">
+              <div className="col-span-2">
                 <div className="bg-bkg-3 border border-bkg-4 bg-redeem-two bg-cover bg-bottom bg-no-repeat h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
                   <div className="py-4 px-8 mt-3">
                     <div className="flex flex-col mb-8">
@@ -57,13 +58,15 @@ const ContentSectionRedeem = () => {
                           Everyone can become a mango market maker
                       </h2>
                       <p className="text-white text-opacity-70 text-base">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                          Provide liquidity on the upcoming perp markets, the DAO will vote on liquidity incentives for perp markets,
                       </p>
+                      <LinkLeft>link to SDK  "mango-client-v3"</LinkLeft>
+                      <LinkLeft>link to docs with devnet tutorial</LinkLeft>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="col-span-3 lg:col-span-1">
+              <div className="col-span-2">
                 <div className="bg-bkg-3 border border-bkg-4 bg-redeem-four bg-contain lg:bg-cover bg-bottom bg-no-repeat h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
                   <div className="py-4 px-8 mt-3">
                     <div className="flex flex-col mb-8">
@@ -71,8 +74,12 @@ const ContentSectionRedeem = () => {
                         Road to decentralization
                       </h2>
                       <p className="text-white text-opacity-70 text-base mb-4">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Starts off with the feeling (heres what we've done to keep mango decentralized) ends with the CTA of (heres how you can help, heres what we need) 
                       </p>
+                      <p>rough tech roadmap with link to trello</p>
+                      <p>if you can help us build it, send us proposals the DAO will vote on grants</p>
+
+
                     </div>
                   </div>
                 </div>
@@ -83,7 +90,7 @@ const ContentSectionRedeem = () => {
           <div className="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20 h-350">
             <div className="lg:self-center">
               <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
-                <span className="block">Join the community</span>
+                <span className="block">Join the Discord</span>
               </h2>
               <p className="mt-4 text-xl leading-6 text-white text-opacity-50">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.{' '}
