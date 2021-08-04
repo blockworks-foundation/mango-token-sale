@@ -1,5 +1,5 @@
 import Button from "./Button"
-import GradientText from "./GradientText"
+//import GradientText from "./GradientText"
 
 const ContentSectionRedeem = () => {
   return (
@@ -80,10 +80,10 @@ const ContentSectionRedeem = () => {
             </div>
           </section>
           <div className="bg-bkg-3 border border-bkg-4 rounded-xl shadow-md overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4 mt-8">
-          <div className="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20 h-550">
+          <div className="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20 h-350">
             <div className="lg:self-center">
               <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
-                <span className="block"><GradientText>Join the community</GradientText></span>
+                <span className="block">Join the community</span>
               </h2>
               <p className="mt-4 text-xl leading-6 text-white text-opacity-50">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.{' '}
@@ -101,7 +101,7 @@ const ContentSectionRedeem = () => {
           </div>
           <div className="-mt-6 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
             <img
-              className="h-650 transform translate-x-2 translate-y-2 rounded-md object-cover object-left-top sm:translate-x-12 lg:translate-y-16"
+              className="h-550 transform translate-x-2 translate-y-2 rounded-xl shadow-lg object-cover object-left-top sm:translate-x-12 lg:translate-y-16"
               src="../img/redeem5.png"
               alt="mango markets"
             />

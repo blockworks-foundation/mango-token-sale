@@ -28,6 +28,7 @@ module.exports = {
         'redeem-four': "url('../public/img/redeem4.png')",
       }),
       height: {
+        350: '350px',
         550: '550px',
         650: '650px',
         750: '750px',
