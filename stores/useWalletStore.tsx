@@ -28,20 +28,21 @@ export const ENDPOINTS: EndpointInfo[] = [
     name: 'mainnet-beta',
     url: 'https://api.mainnet-beta.solana.com/',
     websocket: 'https://api.mainnet-beta.solana.com/',
-    programId: '',
-    poolKey: '',
+    programId: '6QXNNAPkPsWjd1j3qQJTvRFgSNPARMhF2tE8g1WeGyrM',
+    poolKey: 'AHBj9LAjxStT2YQHN6QdfHKpZLtEVr8ACqeFgYcPsTnr',
   },
   {
     name: 'devnet',
     url: 'https://cache.devnet.rpcpool.com',
     websocket: 'https://cache.devnet.rpcpool.com',
-    programId: '2oBtRS2AAQfsMxXQfg41fKFY9zjvHwSSD7G5idrCFziV', // owned by devnet key
-    // programId: 'CRU6hX2GgtdabESgkoMswMrUdRFxHhCVYmS292VN1Nnn', // owned by governance
-    //poolKey: 'GvSyVjGwLBeWdURMLDmSffQPqA8g547A6TURbbBnDpa4', // governance test
+    // programId: '2oBtRS2AAQfsMxXQfg41fKFY9zjvHwSSD7G5idrCFziV', // owned by devnet key
     // poolKey: '82ndgp58GXpwuLrEc9svHFdhiEsPaZoNUEWwgc79WHqk', // already over
-    poolKey: '5heMyYtJK1Us9Hx2w6s5rLDNj8RufeyCR1ZUJAVFLQL7', // long deposits
+    // poolKey: '5heMyYtJK1Us9Hx2w6s5rLDNj8RufeyCR1ZUJAVFLQL7', // long deposits
     // poolKey: '7Dr2Ksnz5evoT9mEUgvvkmirH8KDC99b5oVPHbqSpx4K', // short deposit
-    //poolKey: 'CdKyD4Qazo72Bm6SsPBWrT1AnH1NEuoUzvQg7b67EBac', // not started yet
+    // poolKey: 'CdKyD4Qazo72Bm6SsPBWrT1AnH1NEuoUzvQg7b67EBac', // not started yet
+    // final test
+    programId: '6expDDr1166g15G8WT7PB5SKSX23oNvTEodTcydbcCwq',
+    poolKey: 'Eij5yEUVxch6nLMiUrp3jKQkDzna9KabsxHJ4ScC4QTV',
   },
   {
     name: 'localnet',
