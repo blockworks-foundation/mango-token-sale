@@ -60,7 +60,7 @@ const ContentSectionRedeem = () => {
                       <p className="text-white text-opacity-70 text-base">
                           Provide liquidity on the upcoming perp markets, the DAO will vote on liquidity incentives for perp markets,
                       </p>
-                      <LinkLeft>link to SDK  "mango-client-v3"</LinkLeft>
+                      <LinkLeft>link to SDK</LinkLeft>
                       <LinkLeft>link to docs with devnet tutorial</LinkLeft>
                     </div>
                   </div>
@@ -74,7 +74,7 @@ const ContentSectionRedeem = () => {
                         Road to decentralization
                       </h2>
                       <p className="text-white text-opacity-70 text-base mb-4">
-                        Starts off with the feeling (heres what we've done to keep mango decentralized) ends with the CTA of (heres how you can help, heres what we need) 
+                        Starts off with the feeling (heres what we&apos;ve done to keep mango decentralized) ends with the CTA of (heres how you can help, heres what we need) 
                       </p>
                       <p>rough tech roadmap with link to trello</p>
                       <p>if you can help us build it, send us proposals the DAO will vote on grants</p>
