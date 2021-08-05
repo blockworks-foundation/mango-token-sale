@@ -18,8 +18,8 @@ const ContentSectionRedeem = () => {
             </p>
           </div>
           <section className="">
-            <div className="grid grid-cols-4 gap-6 mb-6">
-              <div className="col-span-2">
+            <div className="grid grid-cols-3 gap-6 mb-6">
+              <div className="col-span-3 lg:col-span-2">
                 <div className="bg-bkg-3 border border-bkg-4 bg-redeem-one bg-contain bg-bottom bg-no-repeat h-750 md:h-650 lg:h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
                   <div className="py-4 px-8 mt-3">
                     <div className="flex flex-col mb-8">
@@ -33,7 +33,7 @@ const ContentSectionRedeem = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-span-2">
+              <div className="col-span-3 lg:col-span-1">
                 <div className="bg-bkg-3 border border-bkg-4 bg-redeem-three bg-cover bg-bottom bg-no-repeat h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
                   <div className="py-4 px-8 mt-3">
                     <div className="flex flex-col mb-8">
@@ -49,8 +49,8 @@ const ContentSectionRedeem = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-4 gap-6">
-              <div className="col-span-2">
+            <div className="grid grid-cols-3 gap-6">
+              <div className="col-span-3 lg:col-span-1">
                 <div className="bg-bkg-3 border border-bkg-4 bg-redeem-two bg-cover bg-bottom bg-no-repeat h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
                   <div className="py-4 px-8 mt-3">
                     <div className="flex flex-col mb-8">
@@ -66,7 +66,7 @@ const ContentSectionRedeem = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-span-2">
+              <div className="col-span-3 lg:col-span-2">
                 <div className="bg-bkg-3 border border-bkg-4 bg-redeem-four bg-contain lg:bg-cover bg-bottom bg-no-repeat h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
                   <div className="py-4 px-8 mt-3">
                     <div className="flex flex-col mb-8">
