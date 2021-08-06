@@ -153,7 +153,7 @@ const ContributionModal = () => {
     }
   }, [submitting])
 
-  const hasUSDC = usdcBalance > 0
+  const hasUSDC = usdcBalance > 0 || redeemableBalance > 0
 
   const toLateToDeposit =
     endDeposits?.isBefore() && endIdo.isAfter() && !largestAccounts.redeemable
