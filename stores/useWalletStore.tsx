@@ -35,11 +35,11 @@ export const ENDPOINTS: EndpointInfo[] = [
     name: 'devnet',
     url: 'https://cache.devnet.rpcpool.com',
     websocket: 'https://cache.devnet.rpcpool.com',
-    programId: '12m9VS9dH25xT2z8nnBsEpUdZgQTsZFVEu3RxEUCgaAT', // owned by devnet key
+    programId: '6gz7FgVc6eEmW1qRVCf31jathY7EgLHg4gVpjnmhkpox', // owned by devnet key
     // programId: 'CRU6hX2GgtdabESgkoMswMrUdRFxHhCVYmS292VN1Nnn', // owned by governance
     //poolKey: 'GvSyVjGwLBeWdURMLDmSffQPqA8g547A6TURbbBnDpa4', // governance test
     // poolKey: '82ndgp58GXpwuLrEc9svHFdhiEsPaZoNUEWwgc79WHqk', // already over
-    poolKey: '4pdmNZ4AvjjbxfuLFh4gHcafPpvb9r7CDHP4hmpnFLip', // long deposits
+    poolKey: '56GXq6GgLKdhK1G1LWeGY1u35MJCJRdiVfJuw4vXu3tK', // long deposits
     // poolKey: '7Dr2Ksnz5evoT9mEUgvvkmirH8KDC99b5oVPHbqSpx4K', // short deposit
     //poolKey: 'CdKyD4Qazo72Bm6SsPBWrT1AnH1NEuoUzvQg7b67EBac', // not started yet
   },
