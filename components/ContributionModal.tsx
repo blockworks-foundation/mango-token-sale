@@ -207,7 +207,11 @@ const ContributionModal = () => {
           {editContribution && !submitting && (
             <>
               <h2>Funds unlocked</h2>
-              <p>Increase or reduce your contribution...</p>
+              <p>
+                {toLateToDeposit
+                  ? 'You may only reduce your contribution during this phase. Reducing cannot be reversed.'
+                  : 'Increase or reduce your contribution.'}
+              </p>
             </>
           )}
         </div>

@@ -39,7 +39,7 @@ export const ENDPOINTS: EndpointInfo[] = [
     // programId: 'CRU6hX2GgtdabESgkoMswMrUdRFxHhCVYmS292VN1Nnn', // owned by governance
     //poolKey: 'GvSyVjGwLBeWdURMLDmSffQPqA8g547A6TURbbBnDpa4', // governance test
     // poolKey: '82ndgp58GXpwuLrEc9svHFdhiEsPaZoNUEWwgc79WHqk', // already over
-    poolKey: '56GXq6GgLKdhK1G1LWeGY1u35MJCJRdiVfJuw4vXu3tK', // long deposits
+    poolKey: '6c5BeKo7aLZAKVqwQbcVAUKNTZkEDQvyhpPb4YSja2NG', // long deposits
     // poolKey: '7Dr2Ksnz5evoT9mEUgvvkmirH8KDC99b5oVPHbqSpx4K', // short deposit
     //poolKey: 'CdKyD4Qazo72Bm6SsPBWrT1AnH1NEuoUzvQg7b67EBac', // not started yet
   },
