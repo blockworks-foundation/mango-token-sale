@@ -24,24 +24,34 @@ const ContentSectionRedeem = () => {
                   <div className="py-4 px-8 mt-3">
                     <div className="flex flex-col mb-8">
                       <h2 className="text-white font-semibold text-xl tracking-wide mb-2">
-                        With great power comes great responsibility
+                        With power comes great responsibility.
                       </h2>
                       <p className="text-white text-opacity-70 text-base">
-                        Mango is the first DAO on solana to use on-chain governance, as mango holders our highest responsibility is to command the DAO. We need to figure out how this will work, we need to figure out the rules ourselves. We&apos;re building the constitution. {' '}
+                        Mango is the first DAO on Solana to use on-chain governance, this is a big step towrds complete decentralization. 
+                        It means that founding members do not control the DAO, the DAO is actually controlled by all of us; the MNGO holders. 
+                        <br />
+                        <br /> 
+                        As MNGO holders our highest responsibility is to command and protect the DAO and it&apos;s value. Holders have the responsibility to make the rules and decide on the protocols future.
+                        Together we will build the constitution, together we will push for progress, together we will grow the protocol.  {' '}
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col-span-3 lg:col-span-1">
-                <div className="bg-bkg-3 border border-bkg-4 bg-redeem-three bg-cover bg-bottom bg-no-repeat h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
+                <div className="bg-bkg-3 border border-bkg-4 bg-redeem-three bg-contain bg-bottom bg-no-repeat h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
                   <div className="py-4 px-8 mt-3">
                     <div className="flex flex-col mb-8">
                       <h2 className="text-white font-semibold text-xl tracking-wide mb-2">
-                        Getting MNGO on V3
+                        MNGO in the pool?
                       </h2>
                       <p className="text-white text-opacity-70 text-base">
-                        MNGO should be traded on mango v3 at launch, that means mango needs decent liquidity on-par with other tokens. There are no backroom deals, no one hired a market maker to provide liquidity so we need to come together and provide liquidity in raydium pool.
+                        We all want MNGO to be traded on Mango V3 at launch. This means MNGO needs liquidity 
+                        on-par with other top traded tokens on serum. There are no backroom deals, no one officially to make markets for us.
+                        <br />
+                        <br />
+                        We will be creating a Raydium pool with incentives to help provide initial liquidity but
+                        we also need the community to add liquidity to the pool and orderbooks.
                       </p>
                     </div>
                   </div>
@@ -55,7 +65,7 @@ const ContentSectionRedeem = () => {
                   <div className="py-4 px-8 mt-3">
                     <div className="flex flex-col mb-8">
                       <h2 className="text-white font-semibold text-xl tracking-wide mb-2">
-                          Everyone can become a mango market maker
+                          MNGO holder &amp; maker of markets.
                       </h2>
                       <p className="text-white text-opacity-70 text-base">
                           Provide liquidity on the upcoming perp markets, the DAO will vote on liquidity incentives for perp markets,
@@ -71,13 +81,17 @@ const ContentSectionRedeem = () => {
                   <div className="py-4 px-8 mt-3">
                     <div className="flex flex-col mb-8">
                       <h2 className="text-white font-semibold text-xl tracking-wide mb-2">
-                        Road to decentralization
+                        The road to full decentralization.
                       </h2>
                       <p className="text-white text-opacity-70 text-base mb-4">
                         Starts off with the feeling (heres what we&apos;ve done to keep mango decentralized) ends with the CTA of (heres how you can help, heres what we need) 
                       </p>
-                      <p>rough tech roadmap with link to trello</p>
-                      <p>if you can help us build it, send us proposals the DAO will vote on grants</p>
+                      <p className="text-white text-opacity-70 text-base mb-4">
+                        rough tech roadmap with link to trello
+                        </p>
+                      <p className="text-white text-opacity-70 text-base mb-4">
+                        if you can help us build it, send us proposals the DAO will vote on grants
+                        </p>
 
 
                     </div>
