@@ -239,12 +239,17 @@ const ContributionModal = () => {
                       style={{ transform: 'scaleX(-1)' }}
                     />
                   </a>
-                  <WalletIcon className="w-4 h-4 mx-1 text-fgd-3 fill-current" />
+                  <div title="Wallet Icon">
+                    <WalletIcon className="w-4 h-4 mx-1 text-fgd-3 fill-current" />
+                  </div>
                   {connected ? (
                     loading ? (
                       <div className="bg-bkg-4 rounded w-10 h-4 animate-pulse" />
                     ) : (
-                      <span className="font-display text-fgd-1 ml-1">
+                      <span
+                        className="font-display text-fgd-3 ml-1"
+                        title="Wallet USDC"
+                      >
                         {walletAmount.toFixed(2)}
                       </span>
                     )
@@ -253,10 +258,11 @@ const ContributionModal = () => {
                   )}
                   <img
                     alt=""
+                    title="Wallet USDC"
                     width="16"
                     height="16"
                     src="/icons/usdc.svg"
-                    className={`ml-1`}
+                    className="ml-1 opacity-75"
                   />
                 </div>
                 <div className="flex">
