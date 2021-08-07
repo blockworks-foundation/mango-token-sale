@@ -9,6 +9,7 @@ export default function usePool() {
   const endDeposits = pool
     ? moment.unix(pool.endDepositsTs.toNumber())
     : undefined
+  console.log('test')
 
   // // override for announcement
   // const unixTs = 1628553600
