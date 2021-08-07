@@ -84,7 +84,7 @@ const ContributionModal = () => {
     setWalletAmount(totalBalance - amount)
     setContributionAmount(amount)
     if (endDeposits?.isBefore() && amount > redeemableBalance) {
-      setErrorMessage('Deposits ended, contribution can not increase')
+      setErrorMessage('Deposits ended, contribution cannot increase')
       setTimeout(() => setErrorMessage(null), 4000)
     }
   }
@@ -93,7 +93,7 @@ const ContributionModal = () => {
     let newContribution = Math.round(percentage * totalBalance) / 100
     if (endDeposits?.isBefore() && newContribution > redeemableBalance) {
       newContribution = redeemableBalance
-      setErrorMessage('Deposits ended, contribution can not increase')
+      setErrorMessage('Deposits ended, contribution cannot increase')
       setTimeout(() => setErrorMessage(null), 4000)
     }
 
@@ -175,7 +175,7 @@ const ContributionModal = () => {
             !(connected && toLateToDeposit) && (
               <>
                 <h2>The journey starts here.</h2>
-                <p>When your&apos;re ready, deposit your USDC</p>
+                <p>When you&apos;re ready, deposit your USDC</p>
               </>
             )}
 
@@ -207,7 +207,11 @@ const ContributionModal = () => {
           {editContribution && !submitting && (
             <>
               <h2>Funds unlocked</h2>
-              <p>Increase or reduce your contribution...</p>
+              <p>
+                {endDeposits?.isBefore() && endIdo?.isAfter()
+                  ? 'You may reduce your contribution during this phase. Reducing cannot be reversed.'
+                  : 'Increase or reduce your contribution.'}
+              </p>
             </>
           )}
         </div>
@@ -314,6 +318,7 @@ const ContributionModal = () => {
                     </div>
                   )}
                 </div>
+
                 <Button
                   onClick={() => handleSetContribution()}
                   className="w-full py-2.5"
@@ -324,7 +329,7 @@ const ContributionModal = () => {
                       ? "Sorry you can't add anymore 🥲"
                       : hasUSDC || !connected
                       ? 'Set Contribution'
-                      : 'Loading USDC balance 💦'}
+                      : 'Your USDC balance is 0'}
                   </div>
                 </Button>
               </div>
