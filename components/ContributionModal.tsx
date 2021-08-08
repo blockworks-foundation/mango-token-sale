@@ -186,7 +186,7 @@ const ContributionModal = () => {
             toLateToDeposit && (
               <>
                 <h2>We&apos;re sorry, you missed it.</h2>
-                <p>Deposits are already closed</p>
+                <p>The sale period has ended</p>
               </>
             )}
 
@@ -199,8 +199,8 @@ const ContributionModal = () => {
 
           {submitted && !submitting && (
             <>
-              <h2>Your contribution amount</h2>
-              <p>Thanks for contributing...</p>
+              <h2>You&apos;ve contributed ${contributionAmount}</h2>
+              <p>Unlock to edit your contribution amount</p>
             </>
           )}
 
@@ -334,7 +334,7 @@ const ContributionModal = () => {
                     {dontAddMore
                       ? "Sorry you can't add anymore 🥲"
                       : hasUSDC || !connected
-                      ? 'Set Contribution'
+                      ? `Deposit $${contributionAmount}`
                       : 'Your USDC balance is 0'}
                   </div>
                 </Button>
