@@ -154,9 +154,12 @@ const ContributionModal = () => {
   }, [submitting])
 
   const hasUSDC = usdcBalance > 0 || redeemableBalance > 0
+  const difference = contributionAmount - redeemableBalance
 
   const toLateToDeposit =
-    endDeposits?.isBefore() && endIdo.isAfter() && !largestAccounts.redeemable
+    endDeposits?.isBefore() &&
+    endIdo.isAfter() &&
+    !largestAccounts.redeemable?.balance
 
   const disableFormInputs =
     submitted || !connected || loading || (connected && toLateToDeposit)
@@ -333,9 +336,11 @@ const ContributionModal = () => {
                   <div className={`flex items-center justify-center`}>
                     {dontAddMore
                       ? "Sorry you can't add anymore 🥲"
-                      : hasUSDC || !connected
-                      ? `Deposit $${contributionAmount}`
-                      : 'Your USDC balance is 0'}
+                      : !hasUSDC && connected
+                      ? 'Your USDC balance is 0'
+                      : difference >= 0
+                      ? `Deposit $${difference}`
+                      : `Withdraw $${difference}`}
                   </div>
                 </Button>
               </div>
