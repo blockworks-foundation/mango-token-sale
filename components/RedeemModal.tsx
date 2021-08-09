@@ -81,7 +81,7 @@ const RedeemModal = () => {
 
           {submitting ? (
             <>
-              <h2>Approve the transaction</h2>
+              <h2>Approve the transaction.</h2>
               <p>Almost there...</p>
             </>
           ) : null}
