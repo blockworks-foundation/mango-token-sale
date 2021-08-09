@@ -18,7 +18,7 @@ const PoolCountdown = (props: { className?: string; date: moment.Moment }) => {
         <div
           className={`${props.className} font-bold text-white flex items-center`}
         >
-          <ClockIcon className="w-5 h-5 mr-1.5 mt-0.5 text-primary-light" />
+          <ClockIcon className="w-5 h-5 mr-2 mt-0.5 text-fgd-3" />
           <span className="text-xl">
             {/* <span className="bg-bkg-1 border border-bkg-4 mx-0.5 px-1.5 py-1 rounded"> */}
             {hours < 10 ? `0${hours}` : hours}

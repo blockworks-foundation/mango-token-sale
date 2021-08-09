@@ -45,6 +45,10 @@ const RedeemModal = () => {
   }
 
   useEffect(() => {
+    actions.fetchMints()
+  }, [])
+
+  useEffect(() => {
     setLoading(true)
     if (largestAccounts.redeemable) {
       setLoading(false)
@@ -154,7 +158,7 @@ const RedeemModal = () => {
                   disabled={disableSubmit}
                 >
                   <div className={`flex items-center justify-center`}>
-                    Redeem 🥭
+                    Redeem {redeemableBalance} MNGO
                   </div>
                 </Button>
               </div>
