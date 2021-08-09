@@ -27,7 +27,7 @@ const HeroSection = () => {
           </div>
           <div className="mb-16 flex flex-col items-center">
             <a className="mb-6" onClick={() => scrollToId('contribute')}>
-              <Button className="py-3 text-xl">Contribute Now</Button>
+              <Button>Contribute Now</Button>
             </a>
             <a
               className="cursor-pointer flex flex-col items-center text-fgd-1 hover:underline"

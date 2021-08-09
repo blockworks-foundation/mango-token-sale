@@ -30,7 +30,7 @@ const StatsModal = () => {
         </div>
 
         <div className="py-4 text-center">
-          <p className="text-fgd-3">USDC Deposited</p>
+          <p className="text-fgd-3">USDC Contributed</p>
           <div className="flex items-center justify-center pt-0.5">
             <img
               alt=""

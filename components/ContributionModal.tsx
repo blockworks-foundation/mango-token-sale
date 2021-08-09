@@ -168,7 +168,7 @@ const ContributionModal = () => {
 
   const dontAddMore =
     endDeposits?.isBefore() && contributionAmount > redeemableBalance
-  const disableSubmit = disableFormInputs || walletAmount < 0 || dontAddMore
+  const disableSubmit = disableFormInputs || walletAmount <= 0 || dontAddMore
 
   return (
     <>
@@ -218,8 +218,8 @@ const ContributionModal = () => {
               </h2>{' '}
               <p>
                 {endDeposits?.isBefore() && endIdo?.isAfter()
-                  ? 'You may reduce your contribution during this phase. Reducing cannot be reversed.'
-                  : 'Increase or reduce your contribution.'}
+                  ? 'You can only reduce your contribution during the grace period. Reducing cannot be reversed.'
+                  : 'Increase or reduce your contribution'}
               </p>
             </>
           )}
