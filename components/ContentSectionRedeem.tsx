@@ -24,7 +24,7 @@ const ContentSectionRedeem = () => {
                     <div className="py-4 px-8 mt-3">
                       <div className="flex flex-col mb-8">
                         <h2 className="text-white font-semibold text-xl tracking-wide mb-2">
-                          With power comes great responsibility.
+                          With power comes great responsibility
                         </h2>
                         <p className="text-white text-opacity-70 text-base">
                           Mango is the first DAO on Solana to use on-chain
@@ -75,7 +75,7 @@ const ContentSectionRedeem = () => {
                     <div className="py-4 px-8 mt-3">
                       <div className="flex flex-col mb-8">
                         <h2 className="text-white font-semibold text-xl tracking-wide mb-2">
-                          MNGO holder &amp; maker of markets.
+                          MNGO holder &amp; maker of markets
                         </h2>
                         <p className="text-white text-opacity-70 text-base">
                           Provide liquidity on the upcoming perp markets, the
@@ -93,7 +93,7 @@ const ContentSectionRedeem = () => {
                     <div className="py-4 px-8 mt-3">
                       <div className="flex flex-col mb-8">
                         <h2 className="text-white font-semibold text-xl tracking-wide mb-2">
-                          The road to full decentralization.
+                          The road to full decentralization
                         </h2>
                         <p className="text-white text-opacity-70 text-base mb-4">
                           Starts off with the feeling (heres what we&apos;ve
