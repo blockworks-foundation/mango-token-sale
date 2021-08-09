@@ -47,6 +47,8 @@ const ContributionModal = () => {
   const [errorMessage, setErrorMessage] = useState(null)
   const [refreshing, setRefreshing] = useState(false)
 
+  const usdFormat = new Intl.NumberFormat('en-US')
+
   //onst priceFormat = new Intl.NumberFormat('en-US', {
   //  maximumSignificantDigits: 4,
   //})
@@ -202,14 +204,18 @@ const ContributionModal = () => {
 
           {submitted && !submitting && (
             <>
-              <h2>You&apos;ve contributed ${contributionAmount}</h2>
+              <h2>
+                You&apos;ve contributed ${usdFormat.format(contributionAmount)}
+              </h2>
               <p>Unlock to edit your contribution amount</p>
             </>
           )}
 
           {editContribution && !submitting && (
             <>
-              <h2>Funds unlocked</h2>
+              <h2>
+                You&apos;ve contributed ${usdFormat.format(redeemableBalance)}
+              </h2>{' '}
               <p>
                 {endDeposits?.isBefore() && endIdo?.isAfter()
                   ? 'You may reduce your contribution during this phase. Reducing cannot be reversed.'
@@ -253,7 +259,7 @@ const ContributionModal = () => {
                         className="font-display text-fgd-3 ml-1"
                         title="Wallet USDC"
                       >
-                        {walletAmount.toFixed(2)}
+                        {usdFormat.format(walletAmount)}
                       </span>
                     )
                   ) : (
@@ -339,8 +345,8 @@ const ContributionModal = () => {
                       : !hasUSDC && connected
                       ? 'Your USDC balance is 0'
                       : difference >= 0
-                      ? `Deposit $${difference}`
-                      : `Withdraw $${difference}`}
+                      ? `Deposit $${usdFormat.format(difference)}`
+                      : `Withdraw $${usdFormat.format(-difference)}`}
                   </div>
                 </Button>
               </div>
