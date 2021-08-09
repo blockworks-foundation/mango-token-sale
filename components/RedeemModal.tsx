@@ -44,9 +44,9 @@ const RedeemModal = () => {
     setSubmitting(true)
   }
 
-  useEffect(() => {
-    actions.fetchMints()
-  }, [])
+  // useEffect(() => {
+  //   actions.fetchMints()
+  // }, [])
 
   useEffect(() => {
     setLoading(true)
