@@ -26,8 +26,8 @@ import { calculateNativeAmountUnsafe } from '../utils/balance'
 export const ENDPOINTS: EndpointInfo[] = [
   {
     name: 'mainnet-beta',
-    url: 'https://api.mainnet-beta.solana.com/',
-    websocket: 'https://api.mainnet-beta.solana.com/',
+    url: 'https://mango.rpcpool.com/',
+    websocket: 'https://mango.rpcpool.com/',
     programId: '6QXNNAPkPsWjd1j3qQJTvRFgSNPARMhF2tE8g1WeGyrM',
     poolKey: 'AHBj9LAjxStT2YQHN6QdfHKpZLtEVr8ACqeFgYcPsTnr',
   },
