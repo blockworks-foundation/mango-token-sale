@@ -6,7 +6,7 @@ const ContentSectionRedeem = () => {
   return (
     <>
       {/* Section 2 */}
-      <div className="bg-bkg-2 transform -skew-y-3 pt-16 pb-16 mb-16 -mt-32 z-0">
+      <div className="bg-bkg-2 transform -skew-y-3 pt-16 pb-0 mb-16 -mt-32 z-0 overflow-hidden">
         <div className="px-8 pt-24 pb-16 z-0 transform skew-y-3">
           <div className="max-w-7xl mx-auto py-16">
             <div className="max-w-4xl mb-24 mx-auto text-center">
@@ -14,37 +14,12 @@ const ContentSectionRedeem = () => {
                 Okay, so you have <GradientText>MNGO</GradientText>, now what?
               </h2>
               <p className="text-xl md:text-2xl lg:text-2xl text-white text-opacity-70">
-                Here&apos;s what happens next and how you can help MNGO grow.
+                Here are three steps to get more MNGO awarded by the DAO.
               </p>
             </div>
             <section className="">
               <div className="grid grid-cols-3 gap-6 mb-24 pb-16">
-                <div className="col-span-3 lg:col-span-1">
-                  <div className="bg-bkg-3 border border-bkg-4 bg-redeem-one bg-contain bg-bottom bg-no-repeat h-750 md:h-650 lg:h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
-                    <div className="py-4 px-8 mt-3">
-                      <div className="flex flex-col mb-8">
-                        <h2 className="text-white font-semibold text-xl tracking-wide mb-2">
-                          With power comes great responsibility.
-                        </h2>
-                        <p className="mb-2 text-white text-opacity-70 text-base">
-                          Mango is the first DAO on solana to use on-chain
-                          governance and as MNGO holders we all have a stake in
-                          driving the future of Mango. The governance mechanism
-                          is already functional and MNGO tokens are used to both
-                          bring proposals to the DAO and vote on said proposals.
-                        </p>
-                        <p className="text-white text-opacity-70 text-base">
-                          There&apos;ll be kinks to iron out as we get up and
-                          running but as DAO members, we are all in this
-                          together. Cementing the Mango Constitution on-chain.
-                        </p>
-                        <LinkLeft>link to docs with devnet tutorial</LinkLeft>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-span-3 lg:col-span-1">
+              <div className="col-span-3 lg:col-span-1">
                   <div className="bg-bkg-3 border border-bkg-4 bg-redeem-three bg-contain bg-bottom bg-no-repeat h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
                     <div className="py-4 px-8 mt-3">
                       <div className="flex flex-col mb-8">
@@ -52,107 +27,106 @@ const ContentSectionRedeem = () => {
                           Life is cool in the Raydium pool.
                         </h2>
                         <p className="mb-2 text-white text-opacity-70 text-base">
-                          The plan is to launch Mango v3 with MNGO as one of the
-                          tradable assets. To do this, we need the liquidity for
-                          MNGO to be somewhere close to other assets traded on
-                          Serum DEX.
+                        MNGO needs decent liquidity on the serum dex orderbook to be added on Mango v3. 
+                        As no deals were done with market makers to provide liquidity, it will be up to 
+                        us MNGO holders to provide it on our own with a Raydium pool. 
+                        <br />
+                        <br />
+
+                        Remaining contributor 
+                        tokens not spent before the sale will be dropped in a fusion pool. Remaining contributor tokens not spent before the sale will 
+                        be dropped in a fusion pool.
                         </p>
-                        <p className="text-white text-opacity-70 text-base">
-                          As no deals were done with market makers to provide
-                          liquidity, it will be up to MNGO holders to jump in
-                          the Raydium pool and create liquidity for MNGO.
-                        </p>
-                        <LinkLeft>link to docs with devnet tutorial</LinkLeft>
+                        <br />
+                        <LinkLeft>Jump in</LinkLeft>
+
                       </div>
                     </div>
                   </div>
                 </div>
+
+
                 <div className="col-span-3 lg:col-span-1">
                   <div className="bg-bkg-3 border border-bkg-4 bg-redeem-two bg-cover bg-bottom bg-no-repeat h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
                     <div className="py-4 px-8 mt-3">
                       <div className="flex flex-col mb-8">
                         <h2 className="text-white font-semibold text-xl tracking-wide mb-2">
-                          Mango Market Makers United.
+                          How much Tabassco is inside you?
                         </h2>
                         <p className="mb-2 text-white text-opacity-70 text-base">
-                          Become a market maker and provide liquidity on the
-                          Mango v3 perp markets (coming soon). Get started with
-                          our example market making bot. Bonus points if you can
-                          deploy it on-chain.
+                         Become a market maker and provide liquidity on the Mango v3 Perpetual Futures. Get started with our example market making bot.
+                      
+                        <br />
+                       <br />
+                          The DAO will decide on liquidity incentives for market making.
                         </p>
-                        <p className="mb-4 text-white text-opacity-70 text-base">
-                          There&apos;ll be a DAO proposal to decide on liquidity
-                          incentives for market making on Mango v3.
-                        </p>
-                        <LinkLeft>link to docs with devnet tutorial</LinkLeft>
+                        <br />
+                        <a href="https://docs.mango.markets/mango-v3/market-making-bot-python">
+                        <LinkLeft>Fork it</LinkLeft>
+
+                        </a>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
 
-
-              <div className="max-w-4xl mb-24 mx-auto text-center">
-              <h2 className="mb-4 text-3xl md:text-4xl lg:text-4xl text-white font-bold font-heading">
-                Okay, so you have <GradientText>MNGO</GradientText>, now what?
-              </h2>
-              <p className="text-xl md:text-2xl lg:text-2xl text-white text-opacity-70">
-                Here&apos;s what happens next and how you can help MNGO grow.
-              </p>
-            </div>
-              <div className="grid grid-cols-4 gap-6">
-
-                <div className="col-span-4 lg:col-span-2">
-                  <div className="bg-bkg-3 border border-bkg-4 bg-redeem-four bg-contain lg:bg-cover bg-bottom bg-no-repeat h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
+                <div className="col-span-3 lg:col-span-1">
+                  <div className="bg-bkg-3 border border-bkg-4 bg-redeem-four bg-contain bg-bottom bg-no-repeat h-750 md:h-650 lg:h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
                     <div className="py-4 px-8 mt-3">
                       <div className="flex flex-col mb-8">
                         <h2 className="text-white font-semibold text-xl tracking-wide mb-2">
-                          The road to full decentralization
+                          Build the best Mango.
                         </h2>
-                        <p className="text-white text-opacity-70 text-base mb-4">
-                          Starts off with the feeling (heres what we&apos;ve
-                          done to keep mango decentralized) ends with the CTA of
-                          (heres how you can help, heres what we need)
+                        <p className="mb-2 text-white text-opacity-70 text-base">
+                        This is by far the hardest and most rewarding method. 
+                        Build independently a project that builds on top of Mango. 
                         </p>
-                        <p className="text-white text-opacity-70 text-base mb-4">
-                          rough tech roadmap with link to trello
+                        <p className="text-white text-opacity-70 text-base">
+                        The bar is high and it should be as good and popular as Mango v1. 
+                        But we believe that the reward given out by the DAO should be equally high.
                         </p>
-                        <p className="text-white text-opacity-70 text-base mb-4">
-                          if you can help us build it, send us proposals the DAO
-                          will vote on grants
-                        </p>
+                        <LinkLeft>Learn more</LinkLeft>
+
                       </div>
                     </div>
                   </div>
                 </div>
 
-
-                <div className="col-span-4 lg:col-span-2">
-                  <div className="bg-bkg-3 border border-bkg-4 bg-redeem-four bg-contain lg:bg-cover bg-bottom bg-no-repeat h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
-                    <div className="py-4 px-8 mt-3">
-                      <div className="flex flex-col mb-8">
-                        <h2 className="text-white font-semibold text-xl tracking-wide mb-2">
-                          The road to full decentralization
-                        </h2>
-                        <p className="text-white text-opacity-70 text-base mb-4">
-                          Starts off with the feeling (heres what we&apos;ve
-                          done to keep mango decentralized) ends with the CTA of
-                          (heres how you can help, heres what we need)
-                        </p>
-                        <p className="text-white text-opacity-70 text-base mb-4">
-                          rough tech roadmap with link to trello
-                        </p>
-                        <p className="text-white text-opacity-70 text-base mb-4">
-                          if you can help us build it, send us proposals the DAO
-                          will vote on grants
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
+
             </section>
-            <div className="bg-bkg-3 border border-bkg-4 rounded-xl shadow-md overflow-hidden lg:grid lg:grid-cols-2 lg:gap-2 mt-8">
+
+          </div>
+        </div>
+        <div className="transform skew-y-3">
+
+            <div className="max-w-4xl mx-auto text-center">
+              <h2 className="mb-4 text-3xl md:text-4xl lg:text-4xl text-white font-bold font-heading">
+              With great power comes great responsibility.
+                            </h2>
+              <p className="text-xl md:text-2xl lg:text-2xl text-white text-opacity-70">
+              Mango is the first DAO on solana to use on-chain governance and as MNGO holders we all have a stake in driving the future of Mango. The governance mechanism is already functional and MNGO tokens are used to both bring proposals to the DAO and vote on said proposals.
+              </p>
+              <p className="text-xl md:text-2xl lg:text-2xl text-white text-opacity-70">
+              There&apos;ll be kinks to iron out as we get up and running but as DAO members, we are all in this together.
+              </p>
+              <a
+                      rel="noreferrer"
+                      target="_blank"
+                      href="https://discord.gg/67jySBhxrgs"
+                    >
+                      <Button>Get Involved</Button>
+                    </a>
+            </div>
+            <div className="relative lg:top-4 md:top-4 sm:top-4 xs:top-4">
+          <img className="" alt="modals" src="../img/redeem1.png" />
+          </div>
+        </div>
+
+      </div>
+
+      <div className="mx-auto max-w-7xl py-16 my-16">
+      <div className="bg-bkg-3 border border-bkg-4 rounded-xl shadow-md overflow-hidden lg:grid lg:grid-cols-2 lg:gap-2 mt-8">
               <div className="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20 h-350">
                 <div className="lg:self-center">
                   <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
@@ -180,9 +154,8 @@ const ContentSectionRedeem = () => {
                 />
               </div>
             </div>
-          </div>
-        </div>
       </div>
+
     </>
   )
 }
