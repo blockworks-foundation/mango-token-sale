@@ -1,6 +1,6 @@
 import Button from './Button'
 import LinkLeft from './LinkLeft'
-//import GradientText from "./GradientText"
+import GradientText from "./GradientText"
 
 const ContentSectionRedeem = () => {
   return (
@@ -11,15 +11,15 @@ const ContentSectionRedeem = () => {
           <div className="max-w-7xl mx-auto py-16">
             <div className="max-w-4xl mb-24 mx-auto text-center">
               <h2 className="mb-4 text-3xl md:text-4xl lg:text-4xl text-white font-bold font-heading">
-                A new journey begins...
+                Okay, so you have <GradientText>MNGO</GradientText>, now what?
               </h2>
               <p className="text-xl md:text-2xl lg:text-2xl text-white text-opacity-70">
-                Here&apos;s what happens next.
+                Here&apos;s what happens next and how you can help MNGO grow.
               </p>
             </div>
             <section className="">
-              <div className="grid grid-cols-3 gap-6 mb-6">
-                <div className="col-span-3 lg:col-span-2">
+              <div className="grid grid-cols-3 gap-6 mb-24 pb-16">
+                <div className="col-span-3 lg:col-span-1">
                   <div className="bg-bkg-3 border border-bkg-4 bg-redeem-one bg-contain bg-bottom bg-no-repeat h-750 md:h-650 lg:h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
                     <div className="py-4 px-8 mt-3">
                       <div className="flex flex-col mb-8">
@@ -38,6 +38,8 @@ const ContentSectionRedeem = () => {
                           running but as DAO members, we are all in this
                           together. Cementing the Mango Constitution on-chain.
                         </p>
+                        <LinkLeft>link to docs with devnet tutorial</LinkLeft>
+
                       </div>
                     </div>
                   </div>
@@ -60,13 +62,11 @@ const ContentSectionRedeem = () => {
                           liquidity, it will be up to MNGO holders to jump in
                           the Raydium pool and create liquidity for MNGO.
                         </p>
+                        <LinkLeft>link to docs with devnet tutorial</LinkLeft>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-
-              <div className="grid grid-cols-3 gap-6">
                 <div className="col-span-3 lg:col-span-1">
                   <div className="bg-bkg-3 border border-bkg-4 bg-redeem-two bg-cover bg-bottom bg-no-repeat h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
                     <div className="py-4 px-8 mt-3">
@@ -84,13 +84,50 @@ const ContentSectionRedeem = () => {
                           There&apos;ll be a DAO proposal to decide on liquidity
                           incentives for market making on Mango v3.
                         </p>
-                        <LinkLeft className="mb-2">link to SDK</LinkLeft>
                         <LinkLeft>link to docs with devnet tutorial</LinkLeft>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-span-3 lg:col-span-2">
+              </div>
+
+
+              <div className="max-w-4xl mb-24 mx-auto text-center">
+              <h2 className="mb-4 text-3xl md:text-4xl lg:text-4xl text-white font-bold font-heading">
+                Okay, so you have <GradientText>MNGO</GradientText>, now what?
+              </h2>
+              <p className="text-xl md:text-2xl lg:text-2xl text-white text-opacity-70">
+                Here&apos;s what happens next and how you can help MNGO grow.
+              </p>
+            </div>
+              <div className="grid grid-cols-4 gap-6">
+
+                <div className="col-span-4 lg:col-span-2">
+                  <div className="bg-bkg-3 border border-bkg-4 bg-redeem-four bg-contain lg:bg-cover bg-bottom bg-no-repeat h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
+                    <div className="py-4 px-8 mt-3">
+                      <div className="flex flex-col mb-8">
+                        <h2 className="text-white font-semibold text-xl tracking-wide mb-2">
+                          The road to full decentralization
+                        </h2>
+                        <p className="text-white text-opacity-70 text-base mb-4">
+                          Starts off with the feeling (heres what we&apos;ve
+                          done to keep mango decentralized) ends with the CTA of
+                          (heres how you can help, heres what we need)
+                        </p>
+                        <p className="text-white text-opacity-70 text-base mb-4">
+                          rough tech roadmap with link to trello
+                        </p>
+                        <p className="text-white text-opacity-70 text-base mb-4">
+                          if you can help us build it, send us proposals the DAO
+                          will vote on grants
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div className="col-span-4 lg:col-span-2">
                   <div className="bg-bkg-3 border border-bkg-4 bg-redeem-four bg-contain lg:bg-cover bg-bottom bg-no-repeat h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
                     <div className="py-4 px-8 mt-3">
                       <div className="flex flex-col mb-8">
@@ -115,7 +152,7 @@ const ContentSectionRedeem = () => {
                 </div>
               </div>
             </section>
-            <div className="bg-bkg-3 border border-bkg-4 rounded-xl shadow-md overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4 mt-8">
+            <div className="bg-bkg-3 border border-bkg-4 rounded-xl shadow-md overflow-hidden lg:grid lg:grid-cols-2 lg:gap-2 mt-8">
               <div className="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20 h-350">
                 <div className="lg:self-center">
                   <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
