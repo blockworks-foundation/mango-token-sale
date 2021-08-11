@@ -56,12 +56,12 @@ const ContentSectionRedeem = () => {
                     <div className="py-4 px-8 mt-3">
                       <div className="flex flex-col mb-8">
                         <h2 className="text-white font-semibold text-xl tracking-wide mb-2">
-                          How much Tabassco is inside you?
+                          Become a Mango market maker.
                         </h2>
                         <p className="mb-2 text-white text-opacity-70 text-base">
-                          Become a market maker and provide liquidity on
-                          Perpetual Futures. Start today on devnet with our
-                          example market making bot and get ready for launch.
+                          Provide liquidity on the upcoming Perpetual Futures.
+                          Start today on devnet with our example bot and get
+                          ready for launch day.
                           <br />
                           <br />
                           Liquidity incentives for market making are built in
@@ -72,7 +72,7 @@ const ContentSectionRedeem = () => {
                           target="_blank"
                           href="https://docs.mango.markets/mango-v3/market-making-bot-python"
                         >
-                          <LinkLeft>Become a Market Maker</LinkLeft>
+                          <LinkLeft>Learn more</LinkLeft>
                         </a>
                       </div>
                     </div>
