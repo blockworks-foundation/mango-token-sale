@@ -51,7 +51,7 @@ const ContentSectionRedeem = () => {
                           How much Tabassco is inside you?
                         </h2>
                         <p className="mb-2 text-white text-opacity-70 text-base">
-                         Become a market maker and provide liquidity on the Mango v3 Perpetual Futures. Get started with our example market making bot.
+                         Become a market maker and provide liquidity on the Mango v3 Perpetual Futures. It&apos;s easy to to get started with our example market making bot and tweak to your needs.
                       
                         <br />
                        <br />
@@ -76,8 +76,8 @@ const ContentSectionRedeem = () => {
                         <p className="mb-2 text-white text-opacity-70 text-base">
                         This is by far the hardest and most rewarding method. 
                         Build independently a project that builds on top of Mango. 
-                        </p>
-                        <p className="text-white text-opacity-70 text-base">
+                        <br />
+                        <br />
                         The bar is high and it should be as good and popular as Mango v1. 
                         But we believe that the reward given out by the DAO should be equally high.
                         </p>
