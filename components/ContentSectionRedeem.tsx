@@ -30,10 +30,6 @@ const ContentSectionRedeem = () => {
                         MNGO needs decent liquidity on the serum dex orderbook to be added on Mango v3. 
                         As no deals were done with market makers to provide liquidity, it will be up to 
                         us MNGO holders to provide it on our own with a Raydium pool. 
-                        <br />
-                        <br />
-
-                        Remaining contributor tokens not spent before the sale will be dropped in a fusion pool.
                         </p>
                         {/* 
                         <a 
