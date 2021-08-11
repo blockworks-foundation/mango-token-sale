@@ -37,8 +37,7 @@ const ContentSectionRedeem = () => {
                         tokens not spent before the sale will be dropped in a fusion pool. Remaining contributor tokens not spent before the sale will 
                         be dropped in a fusion pool.
                         </p>
-                        <br />
-                        <LinkLeft>Jump in</LinkLeft>
+                        <LinkLeft>Jump in Now</LinkLeft>
 
                       </div>
                     </div>
@@ -60,9 +59,8 @@ const ContentSectionRedeem = () => {
                        <br />
                           The DAO will decide on liquidity incentives for market making.
                         </p>
-                        <br />
                         <a href="https://docs.mango.markets/mango-v3/market-making-bot-python">
-                        <LinkLeft>Fork it</LinkLeft>
+                        <LinkLeft>Become a Market Maker</LinkLeft>
 
                         </a>
                       </div>
@@ -85,7 +83,7 @@ const ContentSectionRedeem = () => {
                         The bar is high and it should be as good and popular as Mango v1. 
                         But we believe that the reward given out by the DAO should be equally high.
                         </p>
-                        <LinkLeft>Learn more</LinkLeft>
+                        <LinkLeft>Learn More</LinkLeft>
 
                       </div>
                     </div>
