@@ -96,9 +96,9 @@ const ContentSectionRedeem = () => {
                           importance. We believe that the reward given out by
                           the DAO should be equally high.
                         </p>
-                        <a rel="noreferrer" target="_blank" href="#">
+                        {/* <a rel="noreferrer" target="_blank" href="#">
                           <LinkLeft>Learn More</LinkLeft>
-                        </a>
+                        </a> */}
                       </div>
                     </div>
                   </div>
