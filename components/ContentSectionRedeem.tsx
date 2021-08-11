@@ -75,11 +75,11 @@ const ContentSectionRedeem = () => {
                         </h2>
                         <p className="mb-2 text-white text-opacity-70 text-base">
                         This is by far the hardest and most rewarding method. 
-                        Build independently a project that builds on top of Mango. 
+                        Build a project that builds on top of Mango, help grow the protocol. 
                         <br />
                         <br />
-                        The bar is high and it should be as good and popular as Mango v1. 
-                        But we believe that the reward given out by the DAO should be equally high.
+                        The bar is high and quality is of the utmost importance. 
+                        We believe that the reward given out by the DAO should be equally high.
                         </p>
                         <LinkLeft>Learn More</LinkLeft>
 
