@@ -35,8 +35,15 @@ const ContentSectionRedeem = () => {
 
                         Remaining contributor tokens not spent before the sale will be dropped in a fusion pool.
                         </p>
+                        {/* 
+                        <a 
+                        rel="noreferrer"
+                        target="_blank"
+                        href="#"
+                        >
                         <LinkLeft>Jump in Now</LinkLeft>
-
+                        </a>
+                        */}
                       </div>
                     </div>
                   </div>
@@ -57,9 +64,12 @@ const ContentSectionRedeem = () => {
                        <br />
                           The DAO will decide on liquidity incentives for market making.
                         </p>
-                        <a href="https://docs.mango.markets/mango-v3/market-making-bot-python">
+                        <a 
+                        rel="noreferrer"
+                        target="_blank"
+                        href="https://docs.mango.markets/mango-v3/market-making-bot-python"
+                        >
                         <LinkLeft>Become a Market Maker</LinkLeft>
-
                         </a>
                       </div>
                     </div>
@@ -81,8 +91,13 @@ const ContentSectionRedeem = () => {
                         The bar is high and quality is of the utmost importance. 
                         We believe that the reward given out by the DAO should be equally high.
                         </p>
+                        <a
+                          rel="noreferrer"
+                          target="_blank"
+                          href="#"
+                        >
                         <LinkLeft>Learn More</LinkLeft>
-
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -96,7 +111,7 @@ const ContentSectionRedeem = () => {
         </div>
         <div className="transform skew-y-3">
 
-            <div className="max-w-4xl mx-auto text-center">
+            <div className="max-w-4xl mx-auto text-center -mt-24">
               <h2 className="mb-4 text-3xl md:text-4xl lg:text-4xl text-white font-bold font-heading">
               With great power comes great responsibility.
                             </h2>
@@ -113,19 +128,19 @@ const ContentSectionRedeem = () => {
               <a
                       rel="noreferrer"
                       target="_blank"
-                      href="https://discord.gg/67jySBhxrgs"
+                      href="https://discord.gg/U5XSg5P9ut"
                     >
                       <Button>Get Involved</Button>
                     </a>
                     </div>
-                    <div className="flex relative pt-12 lg:top-4 md:top-4 sm:top-4 xs:top-4">
+                    <div className="flex relative pt-12 -mt-12 lg:top-4 md:top-4 sm:top-4 xs:top-4">
                       <img className="h-96" alt="modals" src="../img/redeem1.png" />
                     </div>
             </div>
         </div>
 
       </div>
-
+      {/* 
       <div className="mx-auto max-w-7xl py-16 my-16">
       <div className="bg-bkg-3 border border-bkg-4 rounded-xl shadow-md overflow-hidden lg:grid lg:grid-cols-2 lg:gap-2 mt-8 bg-bg-texture bg-cover bg-bottom bg-no-repeat">
       <div className="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20 h-350">
@@ -157,7 +172,7 @@ const ContentSectionRedeem = () => {
               </div>
 
             </div>
-
+*/}
     </>
   )
 }
