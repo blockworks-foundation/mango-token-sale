@@ -132,7 +132,7 @@ const ContentSectionRedeem = () => {
       <div className="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20 h-350">
                 <div className="lg:self-center">
                   <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
-                    <span className="block">The Mango community lives on Discord.</span>
+                    <span className="block">The community that lives on Discord.</span>
                   </h2>
                   <p className="mt-4 text-xl leading-6 text-white text-opacity-50">
                     Join us in chat, we&apos;re always available and ready to answer any questions. 
