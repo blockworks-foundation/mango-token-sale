@@ -1,6 +1,6 @@
 import Button from './Button'
 import LinkLeft from './LinkLeft'
-import GradientText from "./GradientText"
+import GradientText from './GradientText'
 
 const ContentSectionRedeem = () => {
   return (
@@ -14,12 +14,13 @@ const ContentSectionRedeem = () => {
                 Okay so you have <GradientText>MNGO</GradientText>, now what?
               </h2>
               <p className="text-xl md:text-2xl lg:text-2xl text-white text-opacity-70">
-                Here are three steps to get more MNGO awarded by the DAO and support the protocol on a deeper level.
+                Here are three steps to get more MNGO awarded by the DAO and
+                support the protocol on a deeper level.
               </p>
             </div>
             <section className="">
               <div className="grid grid-cols-3 gap-6 mb-24 pb-16">
-              <div className="col-span-3 lg:col-span-1">
+                <div className="col-span-3 lg:col-span-1">
                   <div className="bg-bkg-3 border border-bkg-4 bg-redeem-three bg-contain bg-bottom bg-no-repeat h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
                     <div className="py-4 px-8 mt-3">
                       <div className="flex flex-col mb-8">
@@ -27,9 +28,11 @@ const ContentSectionRedeem = () => {
                           Life is cool in the Raydium pool.
                         </h2>
                         <p className="mb-2 text-white text-opacity-70 text-base">
-                        MNGO needs decent liquidity on the serum dex orderbook to be added on Mango v3. 
-                        As no deals were done with market makers to provide liquidity, it will be up to 
-                        us MNGO holders to provide it on our own with a Raydium pool. 
+                          MNGO needs decent liquidity on the serum dex orderbook
+                          to be added on Mango v3. As no deals were done with
+                          market makers to provide liquidity, it will be up to
+                          us MNGO holders to provide it on our own with a
+                          Raydium pool.
                         </p>
                         {/* 
                         <a 
@@ -45,7 +48,6 @@ const ContentSectionRedeem = () => {
                   </div>
                 </div>
 
-
                 <div className="col-span-3 lg:col-span-1">
                   <div className="bg-bkg-3 border border-bkg-4 bg-redeem-two bg-cover bg-bottom bg-no-repeat h-650 w-full shadow-md rounded-xl overflow-hidden mx-auto">
                     <div className="py-4 px-8 mt-3">
@@ -54,18 +56,21 @@ const ContentSectionRedeem = () => {
                           How much Tabassco is inside you?
                         </h2>
                         <p className="mb-2 text-white text-opacity-70 text-base">
-                         Become a market maker and provide liquidity on the Mango v3 Perpetual Futures. It&apos;s easy to to get started with our example market making bot and tweak to your needs.
-                      
-                        <br />
-                       <br />
-                          The DAO will decide on liquidity incentives for market making.
+                          Become a market maker and provide liquidity on the
+                          Mango v3 Perpetual Futures. It&apos;s easy to to get
+                          started with our example market making bot and tweak
+                          to your needs.
+                          <br />
+                          <br />
+                          The DAO will decide on liquidity incentives for market
+                          making.
                         </p>
-                        <a 
-                        rel="noreferrer"
-                        target="_blank"
-                        href="https://docs.mango.markets/mango-v3/market-making-bot-python"
+                        <a
+                          rel="noreferrer"
+                          target="_blank"
+                          href="https://docs.mango.markets/mango-v3/market-making-bot-python"
                         >
-                        <LinkLeft>Become a Market Maker</LinkLeft>
+                          <LinkLeft>Become a Market Maker</LinkLeft>
                         </a>
                       </div>
                     </div>
@@ -80,61 +85,58 @@ const ContentSectionRedeem = () => {
                           Build the best Mango.
                         </h2>
                         <p className="mb-2 text-white text-opacity-70 text-base">
-                        This is by far the hardest and most rewarding method. 
-                        Build a project that builds on top of Mango, help grow the protocol. 
-                        <br />
-                        <br />
-                        The bar is high and quality is of the utmost importance. 
-                        We believe that the reward given out by the DAO should be equally high.
+                          This is by far the hardest and most rewarding method.
+                          Launch a project that builds on top of Mango, help
+                          grow the protocol.
+                          <br />
+                          <br />
+                          The bar is high and quality is of the utmost
+                          importance. We believe that the reward given out by
+                          the DAO should be equally high.
                         </p>
-                        <a
-                          rel="noreferrer"
-                          target="_blank"
-                          href="#"
-                        >
-                        <LinkLeft>Learn More</LinkLeft>
+                        <a rel="noreferrer" target="_blank" href="#">
+                          <LinkLeft>Learn More</LinkLeft>
                         </a>
                       </div>
                     </div>
                   </div>
                 </div>
-
               </div>
-
             </section>
-
           </div>
         </div>
         <div className="transform skew-y-3">
-
-            <div className="max-w-4xl mx-auto text-center -mt-24">
-              <h2 className="mb-4 text-3xl md:text-4xl lg:text-4xl text-white font-bold font-heading">
+          <div className="max-w-4xl mx-auto text-center -mt-24">
+            <h2 className="mb-4 text-3xl md:text-4xl lg:text-4xl text-white font-bold font-heading">
               With great power comes great responsibility.
-                            </h2>
-              <p className="text-lg md:text-2xl lg:text-lg text-white text-opacity-70">
-              Mango is the first DAO on solana to use on-chain governance to interact with the Mango DAO.  
-              As MNGO holders we all have a stake in driving the future of Mango. 
-              </p>
-              <br />
-            
-              <p className="text-lg md:text-2xl lg:text-lg text-white text-opacity-70">
-              The governance mechanism is already functional and MNGO tokens are used to both bring proposals to the DAO and vote on said proposals. There&apos;ll be kinks to iron out as we get up and running but as DAO members, we are all in this together.
-              </p>
-              <div className="py-12">
-              <a
-                      rel="noreferrer"
-                      target="_blank"
-                      href="https://discord.gg/U5XSg5P9ut"
-                    >
-                      <Button>Get Involved</Button>
-                    </a>
-                    </div>
-                    <div className="flex relative pt-12 -mt-12 lg:top-4 md:top-4 sm:top-4 xs:top-4">
-                      <img className="h-96" alt="modals" src="../img/redeem1.png" />
-                    </div>
-            </div>
-        </div>
+            </h2>
+            <p className="text-lg md:text-2xl lg:text-lg text-white text-opacity-70">
+              Mango is the first DAO on solana to use on-chain governance.
+              <br /> As token holders we all have a stake in driving the future
+              of this project.
+            </p>
+            <br />
 
+            {/* <p className="text-lg md:text-2xl lg:text-lg text-white text-opacity-70">
+              The governance mechanism is already functional and MNGO tokens are
+              used to both bring proposals to the DAO and vote on said
+              proposals. There&apos;ll be kinks to iron out as we get up and
+              running but as DAO members, we are all in this together.
+            </p> */}
+            <div className="py-12">
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://discord.gg/U5XSg5P9ut"
+              >
+                <Button>Get Involved</Button>
+              </a>
+            </div>
+            <div className="flex relative pt-12 -mt-12 lg:top-4 md:top-4 sm:top-4 xs:top-4">
+              <img className="h-96" alt="modals" src="../img/redeem1.png" />
+            </div>
+          </div>
+        </div>
       </div>
       {/* 
       <div className="mx-auto max-w-7xl py-16 my-16">
