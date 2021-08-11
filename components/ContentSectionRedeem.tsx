@@ -11,10 +11,10 @@ const ContentSectionRedeem = () => {
           <div className="max-w-7xl mx-auto py-16">
             <div className="max-w-4xl mb-24 mx-auto text-center">
               <h2 className="mb-4 text-3xl md:text-4xl lg:text-4xl text-white font-bold font-heading">
-                Okay, so you have <GradientText>MNGO</GradientText>, now what?
+                Okay so you have <GradientText>MNGO</GradientText>, now what?
               </h2>
               <p className="text-xl md:text-2xl lg:text-2xl text-white text-opacity-70">
-                Here are three steps to get more MNGO awarded by the DAO.
+                Here are three steps to get more MNGO awarded by the DAO and support the protocol on a deeper level.
               </p>
             </div>
             <section className="">
@@ -104,12 +104,15 @@ const ContentSectionRedeem = () => {
               <h2 className="mb-4 text-3xl md:text-4xl lg:text-4xl text-white font-bold font-heading">
               With great power comes great responsibility.
                             </h2>
-              <p className="text-xl md:text-2xl lg:text-2xl text-white text-opacity-70">
+              <p className="text-lg md:text-2xl lg:text-lg text-white text-opacity-70">
               Mango is the first DAO on solana to use on-chain governance and as MNGO holders we all have a stake in driving the future of Mango. The governance mechanism is already functional and MNGO tokens are used to both bring proposals to the DAO and vote on said proposals.
               </p>
-              <p className="text-xl md:text-2xl lg:text-2xl text-white text-opacity-70">
+              <br />
+            
+              <p className="text-lg md:text-2xl lg:text-lg text-white text-opacity-70">
               There&apos;ll be kinks to iron out as we get up and running but as DAO members, we are all in this together.
               </p>
+              <div className="py-12">
               <a
                       rel="noreferrer"
                       target="_blank"
@@ -117,10 +120,11 @@ const ContentSectionRedeem = () => {
                     >
                       <Button>Get Involved</Button>
                     </a>
+                    </div>
+                    <div className="flex relative pt-12 lg:top-4 md:top-4 sm:top-4 xs:top-4">
+                      <img className="h-96" alt="modals" src="../img/redeem1.png" />
+                    </div>
             </div>
-            <div className="relative lg:top-4 md:top-4 sm:top-4 xs:top-4">
-          <img className="" alt="modals" src="../img/redeem1.png" />
-          </div>
         </div>
 
       </div>
@@ -145,14 +149,15 @@ const ContentSectionRedeem = () => {
                     </a>
                   </div>
                 </div>
-              </div>
-              <div className="-mt-6 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
+                <div className="-mt-6 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
                 <img
                   className="h-550 transform translate-x-2 translate-y-2 rounded-xl shadow-lg object-cover object-left-top sm:translate-x-12 lg:translate-y-16"
                   src="../img/redeem5.png"
                   alt="mango markets"
                 />
               </div>
+              </div>
+
             </div>
       </div>
 
