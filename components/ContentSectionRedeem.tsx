@@ -105,12 +105,12 @@ const ContentSectionRedeem = () => {
               With great power comes great responsibility.
                             </h2>
               <p className="text-lg md:text-2xl lg:text-lg text-white text-opacity-70">
-              Mango is the first DAO on solana to use on-chain governance and as MNGO holders we all have a stake in driving the future of Mango. The governance mechanism is already functional and MNGO tokens are used to both bring proposals to the DAO and vote on said proposals.
+              Mango is the first DAO on solana to use on-chain governance to interact with the Mango DAO. As MNGO holders we all have a stake in driving the future of Mango. 
               </p>
               <br />
             
               <p className="text-lg md:text-2xl lg:text-lg text-white text-opacity-70">
-              There&apos;ll be kinks to iron out as we get up and running but as DAO members, we are all in this together.
+              The governance mechanism is already functional and MNGO tokens are used to both bring proposals to the DAO and vote on said proposals. There&apos;ll be kinks to iron out as we get up and running but as DAO members, we are all in this together.
               </p>
               <div className="py-12">
               <a
