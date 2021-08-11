@@ -128,7 +128,7 @@ const ContentSectionRedeem = () => {
       </div>
 
       <div className="mx-auto max-w-7xl py-16 my-16">
-      <div className="bg-bkg-3 border border-bkg-4 rounded-xl shadow-md overflow-hidden lg:grid lg:grid-cols-2 lg:gap-2 mt-8">
+      <div className="bg-bkg-3 border border-bkg-4 rounded-xl shadow-md overflow-hidden lg:grid lg:grid-cols-2 lg:gap-2 mt-8 bg-bg-texture bg-cover bg-bottom bg-no-repeat">
       <div className="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20 h-350">
                 <div className="lg:self-center">
                   <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
