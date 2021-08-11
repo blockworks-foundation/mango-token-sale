@@ -101,7 +101,8 @@ const ContentSectionRedeem = () => {
               With great power comes great responsibility.
                             </h2>
               <p className="text-lg md:text-2xl lg:text-lg text-white text-opacity-70">
-              Mango is the first DAO on solana to use on-chain governance to interact with the Mango DAO. As MNGO holders we all have a stake in driving the future of Mango. 
+              Mango is the first DAO on solana to use on-chain governance to interact with the Mango DAO.  
+              As MNGO holders we all have a stake in driving the future of Mango. 
               </p>
               <br />
             
