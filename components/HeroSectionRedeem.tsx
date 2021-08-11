@@ -9,7 +9,9 @@ const HeroSectionRedeem = () => {
             That&apos;s a wrap! Your <GradientText>MNGO</GradientText> is ready.
           </h2>
           <p className="mb-2 text-xl text-white text-opacity-70">
-            Thank you to everyone who participated in the sale, you are now valued members of the Mango DAO. Let&apos;s shape the future of Mango together.
+            Thank you to everyone who participated in the sale, you are now
+            valued members of the Mango DAO. Let&apos;s shape the future of
+            Mango together.
           </p>
         </div>
         <div className="flex-1 my-5 z-10">

@@ -3,7 +3,7 @@ import GradientText from './GradientText'
 //import moment from 'moment-timezone'
 
 const HeroSectionLead = () => {
-//  const { startIdo } = usePool()
+  //  const { startIdo } = usePool()
 
   return (
     <section className="flex">
