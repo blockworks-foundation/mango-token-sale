@@ -11,11 +11,11 @@ const ContentSectionRedeem = () => {
           <div className="max-w-7xl mx-auto py-16">
             <div className="max-w-4xl mb-24 mx-auto text-center">
               <h2 className="mb-4 text-3xl md:text-4xl lg:text-4xl text-white font-bold font-heading">
-                Okay so you have <GradientText>MNGO</GradientText>, now what?
+                Want more <GradientText>MNGO</GradientText>?
               </h2>
               <p className="text-xl md:text-2xl lg:text-2xl text-white text-opacity-70">
-                Here are three steps to get more MNGO awarded by the DAO and
-                support the protocol on a deeper level.
+                These three steps support the protocol, we believe the DAO
+                should reward them.
               </p>
             </div>
             <section className="">
@@ -28,11 +28,14 @@ const ContentSectionRedeem = () => {
                           Life is cool in the Raydium pool.
                         </h2>
                         <p className="mb-2 text-white text-opacity-70 text-base">
-                          MNGO needs decent liquidity on the serum dex orderbook
-                          to be added on Mango v3. As no deals were done with
-                          market makers to provide liquidity, it will be up to
-                          us MNGO holders to provide it on our own with a
-                          Raydium pool.
+                          We want MNGO to be traded on Mango v3. So MNGO needs
+                          decent liquidity on serum&apos;s order book.
+                          <br />
+                          <br />
+                          It will be up to us MNGO holders to provide that
+                          liquidity on day one. Let&apos;s start with a Raydium
+                          pool until more sophisticated traders step in on their
+                          own.
                         </p>
                         {/* 
                         <a 
@@ -56,14 +59,13 @@ const ContentSectionRedeem = () => {
                           How much Tabassco is inside you?
                         </h2>
                         <p className="mb-2 text-white text-opacity-70 text-base">
-                          Become a market maker and provide liquidity on the
-                          Mango v3 Perpetual Futures. It&apos;s easy to to get
-                          started with our example market making bot and tweak
-                          to your needs.
+                          Become a market maker and provide liquidity on
+                          Perpetual Futures. Start today on devnet with our
+                          example market making bot and get ready for launch.
                           <br />
                           <br />
-                          The DAO will decide on liquidity incentives for market
-                          making.
+                          Liquidity incentives for market making are built in
+                          and instantly awarded.
                         </p>
                         <a
                           rel="noreferrer"
