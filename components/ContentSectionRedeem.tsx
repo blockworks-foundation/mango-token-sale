@@ -131,7 +131,7 @@ const ContentSectionRedeem = () => {
 
       <div className="mx-auto max-w-7xl py-16 my-16">
       <div className="bg-bkg-3 border border-bkg-4 rounded-xl shadow-md overflow-hidden lg:grid lg:grid-cols-2 lg:gap-2 mt-8">
-              <div className="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20 h-350">
+      <div className="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20 h-350">
                 <div className="lg:self-center">
                   <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
                     <span className="block">Join us on Discord.</span>
@@ -149,7 +149,8 @@ const ContentSectionRedeem = () => {
                     </a>
                   </div>
                 </div>
-                <div className="-mt-6 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
+              </div>
+              <div className="-mt-6 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
                 <img
                   className="h-550 transform translate-x-2 translate-y-2 rounded-xl shadow-lg object-cover object-left-top sm:translate-x-12 lg:translate-y-16"
                   src="../img/redeem5.png"
@@ -159,7 +160,6 @@ const ContentSectionRedeem = () => {
               </div>
 
             </div>
-      </div>
 
     </>
   )
