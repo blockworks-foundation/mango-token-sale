@@ -33,9 +33,7 @@ const ContentSectionRedeem = () => {
                         <br />
                         <br />
 
-                        Remaining contributor 
-                        tokens not spent before the sale will be dropped in a fusion pool. Remaining contributor tokens not spent before the sale will 
-                        be dropped in a fusion pool.
+                        Remaining contributor tokens not spent before the sale will be dropped in a fusion pool.
                         </p>
                         <LinkLeft>Jump in Now</LinkLeft>
 
