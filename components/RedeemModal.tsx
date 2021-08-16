@@ -18,9 +18,10 @@ const RedeemModal = () => {
   const vaults = useVaults()
 
   const numberFormat = new Intl.NumberFormat('en-US', {
+    minimumFractionDigits: 2,
     maximumFractionDigits: 2,
   })
-  const totalRaised = vaults.usdc?.balance
+  const totalRaised = 70462383.600012
   const redeemableBalance = largestAccounts.redeemable?.balance || 0
   const redeemableSupply =
     redeemableMint && calculateSupply(mints, redeemableMint)
