@@ -1,6 +1,6 @@
 import ContributionPage from './ContributionPage'
 import LeadPage from './LeadPage'
-import RedeemPage from './RedeemPage'
+//import RedeemPage from './RedeemPage'
 import Notifications from '../components/Notification'
 import NavBarBeta from '../components/NavBarBeta'
 
@@ -16,7 +16,7 @@ const Index = () => {
       <Notifications />
       {startIdo?.isAfter() && <LeadPage />}
       {startIdo?.isBefore() && endIdo?.isAfter() && <ContributionPage />}
-      {endIdo?.isBefore() && <RedeemPage />}
+      {/* {endIdo?.isBefore() && <RedeemPage />} */}
       <div className="w-screen h-2 bg-gradient-to-r from-mango-red via-mango-yellow to-mango-green"></div>
     </div>
   )
