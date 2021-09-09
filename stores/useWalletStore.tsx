@@ -28,8 +28,8 @@ export const ENDPOINTS: EndpointInfo[] = [
     name: 'mainnet-beta',
     url: 'https://mango.rpcpool.com',
     websocket: 'https://mango.rpcpool.com',
-    programId: '6QXNNAPkPsWjd1j3qQJTvRFgSNPARMhF2tE8g1WeGyrM',
-    poolKey: 'AHBj9LAjxStT2YQHN6QdfHKpZLtEVr8ACqeFgYcPsTnr',
+    programId: 'AgGftdn4t6Ws2hEwYmpjPdSHve7QiqhLY3WQyA689kCt',
+    poolKey: 'D5tRvh6dUeerHVwM5DAEnq3Pv2njGEaZoMX9qHfo4HoF',
   },
   {
     name: 'devnet',

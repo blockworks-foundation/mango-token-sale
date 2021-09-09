@@ -394,9 +394,14 @@
       "code": 309,
       "name": "InvalidNonce",
       "msg": "Given nonce is invalid"
+    },
+    {
+      "code": 310,
+      "name": "InvalidPoolAccount",
+      "msg": "Invalid pool account"
     }
   ],
   "metadata": {
-    "address": "6QXNNAPkPsWjd1j3qQJTvRFgSNPARMhF2tE8g1WeGyrM"
+    "address": "AgGftdn4t6Ws2hEwYmpjPdSHve7QiqhLY3WQyA689kCt"
   }
 }
